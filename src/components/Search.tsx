@@ -25,7 +25,7 @@ export function Search() {
       } finally {
         if (!ctrl.signal.aborted) setLoading(false);
       }
-    }, 400);
+    }, 250);
     return () => {
       clearTimeout(t);
       ctrl.abort();

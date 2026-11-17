@@ -68,7 +68,7 @@ function score(b: Book, rank: number, qWords: Set<string>): number {
   );
 }
 
-type Opts = { timeoutMs?: number; retries?: number };
+type Opts = { timeoutMs?: number; retries?: number; only?: Source[] };
 
 /** Renvoie null si la source a echoue (distinct de "aucun resultat"). */
 async function withTimeout(source: Source, q: string, { timeoutMs, retries = 0 }: Opts): Promise<Book[] | null> {
@@ -91,7 +91,7 @@ export async function searchBooks(
   opts: Opts = {},
 ): Promise<{ books: Book[]; sources: Record<Source, number | null> }> {
   // Ordre = priorite pour les champs fusionnes (titre, couverture...) : la BnF passe en dernier, ses titres sont bruts.
-  const order: Source[] = ["google", "openlibrary", "bnf"];
+  const order = (["google", "openlibrary", "bnf"] as Source[]).filter((s) => !opts.only || opts.only.includes(s));
   const raw = await Promise.all(order.map((s) => withTimeout(s, q, opts)));
   const results = raw.map((r) => r ?? []);
   const qWords = new Set(words(q));

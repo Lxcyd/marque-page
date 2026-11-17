@@ -30,11 +30,10 @@ export async function GET(request: Request) {
     return Response.json({ books: local, from: "catalog" }, { headers: cache });
   }
 
-  // Catalogue vide pour cette recherche : sources en direct, 3 s au plus.
-  const live = await searchBooks(q, { timeoutMs: 3000 });
-  after(() => upsertBooks(live.books).catch((e) => console.warn("[search] upsert:", e.message)));
-  // La BnF depasse souvent 3 s : un second passage complet enrichit le catalogue.
-  if (live.sources.bnf === null) refresh();
+  // Catalogue vide : Google seul en direct (0,3-0,9 s mesure ; Open Library 2-21 s,
+  // BnF 4-40 s). Le passage complet des trois sources se fait apres la reponse.
+  const live = await searchBooks(q, { timeoutMs: 1500, only: ["google"] });
+  refresh();
   const books = live.books.map((b) => ({ ...b, id: workKey(b) }));
   return Response.json({ books, from: "live", sources: live.sources }, { headers: cache });
 }
