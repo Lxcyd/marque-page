@@ -6,8 +6,11 @@ import type { Book, Source } from "./types";
 
 const TIMEOUT_MS: Record<Source, number> = { google: 5000, openlibrary: 5000, bnf: 8000 };
 
+/** œ/æ ne se decomposent pas en NFD : "sœurs" doit egaler "soeurs". */
+const unlig = (s: string) => s.replace(/œ/g, "oe").replace(/Œ/g, "Oe").replace(/æ/g, "ae").replace(/Æ/g, "Ae");
+
 const norm = (s = "") =>
-  s
+  unlig(s)
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
@@ -25,7 +28,7 @@ const workKey = (b: Book) => `${norm(mainTitle(b.title))}|${surname(b.authors[0]
 
 const STOP = new Set(["le", "la", "les", "l", "un", "une", "des", "de", "du", "d", "et", "the", "a", "of"]);
 const words = (s: string) =>
-  s
+  unlig(s)
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
@@ -65,21 +68,32 @@ function score(b: Book, rank: number, qWords: Set<string>): number {
   );
 }
 
-async function withTimeout(source: Source, q: string): Promise<Book[]> {
-  const signal = AbortSignal.timeout(TIMEOUT_MS[source]);
+type Opts = { timeoutMs?: number; retries?: number };
+
+/** Renvoie null si la source a echoue (distinct de "aucun resultat"). */
+async function withTimeout(source: Source, q: string, { timeoutMs, retries = 0 }: Opts): Promise<Book[] | null> {
   const fn = { google: searchGoogle, openlibrary: searchOpenLibrary, bnf: searchBnf }[source];
-  try {
-    return await fn(q, signal);
-  } catch (e) {
-    console.warn(`[search] ${source}:`, (e as Error).message);
-    return [];
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await fn(q, AbortSignal.timeout(timeoutMs ?? TIMEOUT_MS[source]));
+    } catch (e) {
+      if (attempt >= retries) {
+        console.warn(`[search] ${source}:`, (e as Error).message);
+        return null;
+      }
+      await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
+    }
   }
 }
 
-export async function searchBooks(q: string): Promise<{ books: Book[]; sources: Record<Source, number> }> {
+export async function searchBooks(
+  q: string,
+  opts: Opts = {},
+): Promise<{ books: Book[]; sources: Record<Source, number | null> }> {
   // Ordre = priorite pour les champs fusionnes (titre, couverture...) : la BnF passe en dernier, ses titres sont bruts.
   const order: Source[] = ["google", "openlibrary", "bnf"];
-  const results = await Promise.all(order.map((s) => withTimeout(s, q)));
+  const raw = await Promise.all(order.map((s) => withTimeout(s, q, opts)));
+  const results = raw.map((r) => r ?? []);
   const qWords = new Set(words(q));
 
   const byKey = new Map<string, { book: Book; rank: number }>();
@@ -102,6 +116,7 @@ export async function searchBooks(q: string): Promise<{ books: Book[]; sources: 
 
   return {
     books,
-    sources: Object.fromEntries(order.map((s, i) => [s, results[i].length])) as Record<Source, number>,
+    // null = source en echec
+    sources: Object.fromEntries(order.map((s, i) => [s, raw[i]?.length ?? null])) as Record<Source, number | null>,
   };
 }

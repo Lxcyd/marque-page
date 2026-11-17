@@ -60,7 +60,8 @@ export async function searchBnf(q: string, signal: AbortSignal): Promise<Book[]>
       {
         id: `bnf:${ark}`,
         title: rawTitle.split(" / ")[0].trim(),
-        authors: all(rec, "creator").map(cleanAuthor),
+        // ouvrages collectifs : le directeur est en "contributor", pas en "creator"
+        authors: (all(rec, "creator").length ? all(rec, "creator") : all(rec, "contributor").slice(0, 2)).map(cleanAuthor),
         year: all(rec, "date")[0]?.match(/\d{4}/)?.[0],
         publisher: all(rec, "publisher")[0]?.replace(/\s*\(.*\)\s*$/, ""),
         isbn: recIsbn,
