@@ -32,7 +32,9 @@ export async function GET(request: Request) {
 
   // Catalogue vide : Google seul en direct (0,3-0,9 s mesure ; Open Library 2-21 s,
   // BnF 4-40 s). Le passage complet des trois sources se fait apres la reponse.
-  const live = await searchBooks(q, { timeoutMs: 1500, only: ["google"] });
+  let live = await searchBooks(q, { timeoutMs: 1500, only: ["google"] });
+  // Quota Google epuise (1 000/jour pour tout le projet) : repli sur Open Library.
+  if (live.sources.google === null) live = await searchBooks(q, { timeoutMs: 2000, only: ["openlibrary"] });
   refresh();
   const books = live.books.map((b) => ({ ...b, id: workKey(b) }));
   return Response.json({ books, from: "live", sources: live.sources }, { headers: cache });
