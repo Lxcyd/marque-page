@@ -88,6 +88,25 @@ const out: string[] = [];
 for (const [id, g] of groups) {
   g.sort((a, b) => quality(b) - quality(a));
   const w = { ...g.reduce(merge), id, editions: g.length };
+  if (g.length > 1) {
+    // Titre = le plus frequent parmi les editions (pas "Germinal : OEuvres completes - XIII"),
+    // a egalite le plus court.
+    // Les variantes sans article ("Petit Prince") comptent avec "Le Petit Prince", qui l'emporte.
+    const ART = /^(le|la|les|l['’]|un|une)\s*/i;
+    const n = new Map<string, number>();
+    g.forEach((b) => n.set(b.title, (n.get(b.title) ?? 0) + 1));
+    const bare = (t: string) => t.toLowerCase().replace(ART, "");
+    const byBare = new Map<string, number>();
+    n.forEach((c, t) => byBare.set(bare(t), (byBare.get(bare(t)) ?? 0) + c));
+    const top = [...byBare].sort((a, b) => b[1] - a[1] || a[0].length - b[0].length)[0][0];
+    const variants = [...n].filter(([t]) => bare(t) === top).sort((a, b) => b[1] - a[1]);
+    w.title = (variants.find(([t]) => ART.test(t)) ?? variants[0])[0];
+    // Annee = premiere parution ; une date isolee a plus de 20 ans de la suivante
+    // est une erreur de saisie (Les Miserables "1800", suivante 1862).
+    const ys = g.map((b) => Number(b.year)).filter((y) => y > 0).sort((a, b) => a - b);
+    while (ys.length >= 2 && ys[1] - ys[0] > 20) ys.shift();
+    if (ys.length) w.year = String(ys[0]);
+  }
   if (!useful(w)) { s.dropped++; continue; }
   s.works++;
   if (g.length > 1) s.multi++;
