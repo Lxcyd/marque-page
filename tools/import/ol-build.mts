@@ -5,6 +5,7 @@
 import { createReadStream, writeFileSync } from "node:fs";
 import { createInterface } from "node:readline";
 import { isFrenchIsbn, toIsbn13 } from "../../src/lib/isbn";
+import { KNOWN_PUBLISHER } from "../../src/lib/publishers";
 import { editionQuality, merge, workKey } from "../../src/lib/search";
 import type { Book } from "../../src/lib/types";
 
@@ -73,11 +74,21 @@ for (const e of editions) {
   g ? g.push(b) : groups.set(k, [b]);
 }
 
-const s = { works: 0, cover: 0, description: 0, isbn: 0, isbnFr: 0, publisher: 0, year: 0, pages: 0, multi: 0 };
+// "Utile" : un livre qu'un lecteur peut chercher. Mesure sur 400 000 oeuvres : 41 % gardees.
+// Ecarte : auteur = organisme (colloque, ministere...), actes/rapports, et les fiches
+// sans couverture, ni ISBN francais, ni seconde edition, ni editeur connu.
+const ORG = /colloque|congr[eè]s|universit|minist[eè]re|institut|soci[eé]t[eé]|association|commission|conseil|centre |comit[eé]|symposium|s[eé]minaire|journ[eé]es|conf[eé]rence|office|direction|acad[eé]mie|organisation|union|f[eé]d[eé]ration|bureau|agence|service|laboratoire/i;
+const JUNK = /^(actes|rapport|compte rendu|bulletin|catalogue|annuaire|proc[eè]s-verbal|th[eè]se|carte|plan )/i;
+const useful = (w: Book) =>
+  !ORG.test(w.authors[0]) && !JUNK.test(w.title) &&
+  !!(w.cover || isFrenchIsbn(w.isbn) || (w.editions ?? 0) >= 2 || KNOWN_PUBLISHER.test(w.publisher ?? ""));
+
+const s = { works: 0, dropped: 0, cover: 0, description: 0, isbn: 0, isbnFr: 0, publisher: 0, year: 0, pages: 0, multi: 0 };
 const out: string[] = [];
 for (const [id, g] of groups) {
   g.sort((a, b) => quality(b) - quality(a));
   const w = { ...g.reduce(merge), id, editions: g.length };
+  if (!useful(w)) { s.dropped++; continue; }
   s.works++;
   if (g.length > 1) s.multi++;
   if (w.cover) s.cover++;
@@ -93,7 +104,7 @@ writeFileSync(data("ol-works-fr.jsonl"), out.join("\n") + "\n");
 const pct = (n: number) => `${((100 * n) / s.works).toFixed(0)} %`;
 console.log(JSON.stringify({ ...s, noAuthor }));
 console.log(
-  `${s.works.toLocaleString()} oeuvres (${noAuthor.toLocaleString()} editions sans auteur ecartees) | ` +
+  `${s.works.toLocaleString()} oeuvres gardees, ${s.dropped.toLocaleString()} ecartees (${noAuthor.toLocaleString()} editions sans auteur) | ` +
     `couverture ${pct(s.cover)} · synopsis ${pct(s.description)} · ISBN ${pct(s.isbn)} (FR ${pct(s.isbnFr)}) · ` +
     `editeur ${pct(s.publisher)} · annee ${pct(s.year)} · pages ${pct(s.pages)} · plusieurs editions ${pct(s.multi)}`,
 );
