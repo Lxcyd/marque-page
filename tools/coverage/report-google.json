@@ -1,0 +1,7996 @@
+[
+ {
+  "season": 8,
+  "date": "14 janvier 2016",
+  "author": "Fédor Dostoïevski et le goût de l'artiste pour la lecture",
+  "title": "L'Idiot",
+  "sources": {
+   "google": 20,
+   "openlibrary": null,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 8,
+  "date": "14 janvier 2016",
+  "author": "Todd Haynes",
+  "title": "Carol",
+  "sources": {
+   "google": 20,
+   "openlibrary": null,
+   "bnf": 4
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 8,
+  "date": "24 mars 2016 -",
+  "author": "Philippe Djian adapté au cinéma",
+  "title": "« Oh... »",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 8,
+  "date": "11 février 2016",
+  "author": "Stendhal adapté en comédie musicale",
+  "title": "Le Rouge et le Noir",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 8,
+  "date": "21 avril 2016",
+  "author": "Viet Thanh Nguyen",
+  "title": "The Sympathizer",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 7
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "The Sympathizer : Now a Sky Exclusive limited series on Sky",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "21 avril 2016",
+  "author": "Florian Zeller représentée à Broadway",
+  "title": "Le Père",
+  "sources": {
+   "google": 0,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Jules Renard",
+  "title": "Journal (1887-1910)",
+  "sources": {
+   "google": 20,
+   "openlibrary": 13,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Jules Renard : Journal 1887-1910",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Charles Baudelaire",
+  "title": "Les Fleurs du mal",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les fleurs du mal",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Louis Calaferte",
+  "title": "Septentrion",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Septentrion : roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Léon Tolstoï",
+  "title": "Guerre et Paix",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": false,
+  "foundBeyondTop5": true
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "J",
+  "title": "Le Seigneur des anneaux",
+  "sources": {
+   "google": 20,
+   "openlibrary": 16,
+   "bnf": 20
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Donna Tartt",
+  "title": "Le Maître des illusions",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 11
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Maître des illusions",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Stendhal",
+  "title": "Le Rouge et le Noir",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": false,
+  "foundBeyondTop5": true
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "William Shakespeare",
+  "title": "Hamlet",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Hamlet",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Fédor Dostoïevski",
+  "title": "Les Frères Karamazov",
+  "sources": {
+   "google": 20,
+   "openlibrary": 17,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les frères Karamazov",
+   "from": [
+    "google",
+    "openlibrary"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Catherine Poulain",
+  "title": "Le Grand Marin",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 7
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Grand Marin",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Mathias Énard",
+  "title": "Boussole",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Boussole",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Jack Kerouac",
+  "title": "Sur la route",
+  "sources": {
+   "google": 20,
+   "openlibrary": 7,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Sur la route",
+   "from": [
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": true
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Clara Beaudoux",
+  "title": "Madeleine Project",
+  "sources": {
+   "google": 15,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Madeleine project",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 8,
+  "date": "26 mai 2016",
+  "author": "Jake Adelstein",
+  "title": "Tokyo Vice",
+  "sources": {
+   "google": 20,
+   "openlibrary": 8,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Tokyo Vice",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "1er septembre 2016 – L'étranger",
+  "author": "Alice Ferney par Trần Anh Hùng sous le titre Éternité",
+  "title": "L'Élégance des veuves",
+  "sources": {
+   "google": 6,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 9,
+  "date": "13 octobre 2016",
+  "author": "Andreï Makine",
+  "title": "L'Archipel d'une autre vie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Archipel d'une autre vie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "13 octobre 2016",
+  "author": "Sylvain Tesson",
+  "title": "Sur les chemins noirs",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Sur les chemins noirs",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "13 octobre 2016",
+  "author": "Marie NDiaye",
+  "title": "La Cheffe, roman d'une cuisinière",
+  "sources": {
+   "google": 15,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Cheffe, roman d'une cuisinière",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "20 octobre 2016",
+  "author": "Philippe Delerm",
+  "title": "Journal d'un homme heureux",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Journal d'un homme heureux",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "20 octobre 2016",
+  "author": "Riad Sattouf",
+  "title": "L'Arabe du futur 3",
+  "sources": {
+   "google": 18,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Arabe du futur Tomes 1 à 3",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": false,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "20 octobre 2016",
+  "author": "Vincent Delerm",
+  "title": "L'Été sans fin",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Songwriting ; L'été sans fin ; C'est un lieu qui existe encore",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "27 octobre 2016",
+  "author": "Jean-Claude Carrière",
+  "title": "La Paix",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La paix",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "27 octobre 2016",
+  "author": "Karine Tuil",
+  "title": "L'Insouciance",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'insouciance",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "27 octobre 2016",
+  "author": "DOA",
+  "title": "Pukhtu secundo",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Pukhtu Secundo",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "27 avril 2017 – Les bouleversements historiques contemporains",
+  "author": "Pascal Blanchard et Farid Abdelouahab",
+  "title": "Les Années 30. Et si l'histoire recommençait ?",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les années 30 : et si l'histoire recommençait ?",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "27 avril 2017 – Les bouleversements historiques contemporains",
+  "author": "Yann Perreau",
+  "title": "Incognito. Anonymat, histoire d'une contre-culture",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Incognito : Anonymat, histoires d'une contre-culture",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "27 avril 2017 – Les bouleversements historiques contemporains",
+  "author": "Arturo Perez-Reverte",
+  "title": "Deux hommes de bien",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Deux hommes de bien",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "11 mai 2017 – Romans policiers ''vs.'' Romans d'aventure",
+  "author": "Laetitia Colombani",
+  "title": "La Tresse",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 11
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La tresse",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "18 mai 2017 –",
+  "author": "René Frégni",
+  "title": "Les Vivants au prix des morts",
+  "sources": {
+   "google": 16,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les vivants au prix des morts",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "11 mai 2017 – Romans policiers ''vs.'' Romans d'aventure",
+  "author": "Sylvain Tesson",
+  "title": "Une très légère oscillation",
+  "sources": {
+   "google": 11,
+   "openlibrary": 2,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une très légère oscillation : Journal 2014-2017",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "18 mai 2017 –",
+  "author": "Hugues Pagan",
+  "title": "Profil perdu",
+  "sources": {
+   "google": 11,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Profil perdu",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "18 mai 2017 –",
+  "author": "William Finnegan",
+  "title": "Jours barbares",
+  "sources": {
+   "google": 16,
+   "openlibrary": 1,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Jours barbares",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "Marguerite Yourcenar",
+  "title": "Mémoires d'Hadrien",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mémoires d'Hadrien",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "Marguerite Duras",
+  "title": "L'Amant",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 19
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Amant de Marguerite Duras (fiche de lecture et analyse complète de l'oeuvre)",
+   "from": [
+    "google",
+    "openlibrary"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "Lydie Salvayre",
+  "title": "La Compagnie des spectres",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Compagnie des spectres - Prix Novembre 1997",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "Charles Dickens",
+  "title": "Les Grandes Espérances",
+  "sources": {
+   "google": 20,
+   "openlibrary": 9,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Grandes Esperances",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "Georges Pérec",
+  "title": "La Vie mode d'emploi",
+  "sources": {
+   "google": 20,
+   "openlibrary": 13,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La vie mode d'emploi",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "James Joyce",
+  "title": "Ulysse",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ulysse",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 9,
+  "date": "25 mai 2017 – Émission spéciale « La bibliothèque idéale »",
+  "author": "Guillaume Apollinaire",
+  "title": "Alcools",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Alcools : un recueil de poèmes de Guillaume Apollinaire",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "7 septembre 2017 – Inventer sa vie",
+  "author": "Philippe Besson",
+  "title": "Un personnage de roman",
+  "sources": {
+   "google": 20,
+   "openlibrary": 3,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Un personnage de roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "14 septembre 2017 – Les écrivains et Dieu",
+  "author": "Éric-Emmanuel Schmitt",
+  "title": "La Vengeance du pardon",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Vengeance du pardon",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "21 septembre 2017 – Les insoumis en littérature",
+  "author": "David Vann",
+  "title": "Sukkwan Island",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 17
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Sukkwan Island",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "5 octobre 2017 – Les confins du monde et de l'esprit",
+  "author": "Christian Bobin",
+  "title": "Un bruit de balançoire",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Un bruit de balançoire",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "12 octobre 2017 – La famille en littérature",
+  "author": "Christophe Honoré",
+  "title": "Ton père",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ton père : roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "19 octobre 2017 – La littérature fait son cinéma",
+  "author": "Jack London",
+  "title": "L'Appel de la forêt",
+  "sources": {
+   "google": 20,
+   "openlibrary": 6,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'appel de la forêt",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "2 novembre 2017 –",
+  "author": "Edwin A",
+  "title": "Flatland",
+  "sources": {
+   "google": 20,
+   "openlibrary": 14,
+   "bnf": 17
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Flatland",
+   "from": [
+    "openlibrary"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "23 novembre 2017 – Émission spéciale Charles Aznavour",
+  "author": "Hélène Carrère d'Encausse",
+  "title": "Le Général de Gaulle et la Russie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Général De Gaulle et la Russie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "9 novembre 2017 – La mémoire et la littérature",
+  "author": "Michaël Foessel",
+  "title": "État de vigilance",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "État de vigilance : critique de la banalité sécuritaire",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "30 novembre 2017 – L'univers à portée de main",
+  "author": "Karen Blixen",
+  "title": "La Ferme africaine",
+  "sources": {
+   "google": 20,
+   "openlibrary": 6,
+   "bnf": 19
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La ferme africaine",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "11 janvier 2018 – Rentrée littéraire hiver 2018",
+  "author": "Olivier Adam",
+  "title": "Chanson de la ville silencieuse",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Chanson de la ville silencieuse : roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "18 janvier 2018 – Littérature et amours",
+  "author": "William Kotzwinkle",
+  "title": "L'ours est un écrivain comme les autres",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'ours est un écrivain comme les autres",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "1er février 2018 –",
+  "author": "Jacques Weber",
+  "title": "Vivre en bourgeois, penser en demi-dieu",
+  "sources": {
+   "google": 6,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Vivre en bourgeois, penser en demi-dieu",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "8 février 2018 – La libération de la parole des femmes",
+  "author": "Pénélope Bagieu",
+  "title": "Culottées",
+  "sources": {
+   "google": 20,
+   "openlibrary": 5,
+   "bnf": 18
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Culottées (L'Intégrale)",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "15 février 2018 – Le beau et la création",
+  "author": "Mathias Énard",
+  "title": "Zone",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Zone : Roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "21 décembre 2017 – Quels livres offrir aux enfants à Noël et comment transmettre la passion de la lecture chez l'enfant",
+  "author": "Marcel Rufo",
+  "title": "Dictionnaire amoureux de l'enfance et de l'adolescence",
+  "sources": {
+   "google": 12,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Dictionnaire amoureux de l'enfance et de l'adolescence",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "1er mars 2018 – Parler de l'avenir",
+  "author": "Lionel Naccache et son épouse Karine Naccache",
+  "title": "Parlez-vous cerveau ?",
+  "sources": {
+   "google": 10,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Parlez-vous cerveau",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": false,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "22 mars 2018 – La beauté et la vie",
+  "author": "Adélaïde Bon",
+  "title": "La Petite Fille sur la banquise",
+  "sources": {
+   "google": 6,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La petite fille sur la banquise : récit",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "8 mars 2018 – La défense des femmes",
+  "author": "Henry de Montherlant",
+  "title": "Les Jeunes Filles",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les jeunes filles",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "12 avril 2018 – Toute vérité est-elle bonne à dire ?",
+  "author": "Nathalie Heinich",
+  "title": "Une histoire de France",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 16
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une histoire de France",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "5 avril 2018 – Les écrivains et leur album de famille",
+  "author": "Daniel Pennac",
+  "title": "Mon frère",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mon frère",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "3 mai 2018 – La Grande Librairie se met au vert",
+  "author": "Jacques Tassin",
+  "title": "Penser comme un arbre",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Penser comme un arbre",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "19 avril 2018 – Trois femmes puissantes",
+  "author": "Howard Zinn",
+  "title": "L'Impossible Neutralité. Autobiographie d'un historien et militant",
+  "sources": {
+   "google": 15,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'impossible neutralité : autobiographie d'un historien & militant",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "31 mai 2018 – Les meilleurs livres de l'année",
+  "author": "Patrick Pécherot",
+  "title": "Hével",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Hével",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "5 septembre 2018 – L'art du portrait et la rentrée littéraire",
+  "author": "Joann Sfar",
+  "title": "Modèle vivant",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Modèle vivant",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "12 septembre 2018 – De la folie à la fantaisie",
+  "author": "Valérie Manteau",
+  "title": "Le Sillon",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le sillon",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "26 septembre 2018 – Les secrets de famille",
+  "author": "Alain Mabanckou",
+  "title": "Les cigognes sont immortelles",
+  "sources": {
+   "google": 14,
+   "openlibrary": 1,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les cigognes sont immortelles",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "3 octobre 2018 – Les écrivains et le monde qui les entoure",
+  "author": "Mark Z",
+  "title": "La Maison des feuilles",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La maison des feuilles",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "10 octobre 2018 – Les remèdes aux soucis du quotidien",
+  "author": "L'AJAR",
+  "title": "Vivre près des tilleuls",
+  "sources": {
+   "google": 14,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Vivre près des tilleuls : par Esther Montandon",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 10,
+  "date": "10 mai 2018 – La Grande Librairie et les mystères de l'Histoire",
+  "author": "Raymond Carver",
+  "title": "Tais-toi, je t'en prie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Tais-toi, je t'en prie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "31 octobre 2018 – Émission spéciale [[Robert Badinter]]",
+  "author": "Annette Wieviorka",
+  "title": "Ils étaient juifs, résistants, communistes",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ils étaient juifs, résistants, communistes",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "7 novembre 2018 – Quel sens donner à notre vie ?",
+  "author": "Éric Vuillard",
+  "title": "L'Ordre du jour",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'ordre du jour",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "17 octobre 2018 – L'Histoire de France par les écrivains et les historiens",
+  "author": "Leonardo Padura",
+  "title": "L'Homme qui aimait les chiens",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Homme qui aimait les chiens",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "28 novembre 2018 – Vivre en accord avec soi-même et avec la nature",
+  "author": "Margaret Atwood",
+  "title": "{{Lien|trad=The Blind Assassin|texte=Le Tueur aveugle|fr=Le Tueur aveugle (roman)}}",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 11,
+  "date": "12 décembre 2018 – Interroger le passé pour mieux comprendre notre époque",
+  "author": "Bruno Cabanes",
+  "title": "Une histoire de la guerre",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une histoire de la guerre : XIXe-XXIe siècle",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "21 novembre 2018 – Vers quel monde allons-nous ?",
+  "author": "Jean-François Marmion",
+  "title": "Psychologie de la connerie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Psychologie de la connerie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "19 décembre 2018 – Quels livres faire lire aux enfants et aux adolescents ?",
+  "author": "Daniel Pennac",
+  "title": "Le Tour du ciel",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le tour du ciel",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "9 janvier 2019 – Rencontre entre [[Alexis Michalik]] et [[Michel Onfray]]",
+  "author": "Salomé Berlioux",
+  "title": "Les Invisibles de la République",
+  "sources": {
+   "google": 12,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Invisibles de la République",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "16 janvier 2019 – Aux frontières de l'invisible et du surnaturel",
+  "author": "Edmond Rostand",
+  "title": "Cyrano de Bergerac",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Cyrano de Bergerac",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "6 février 2019 – La France d'aujourd'hui et la France de demain",
+  "author": "Alan Lomax",
+  "title": "Le Pays où naquit le blues",
+  "sources": {
+   "google": 10,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le pays où naquit le blues",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "13 février 2019 – Les héros d'hier et d'aujourd'hui",
+  "author": "David Gram",
+  "title": "Le Caméléon",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 11,
+  "date": "30 janvier 2019 – La passion amoureuse sous toutes ses formes",
+  "author": "Dominique Bona",
+  "title": "Mes vies secrètes",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mes vies secrètes",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "27 février 2019 – Émission spéciale [[Michel Serres]]",
+  "author": "Léon Chestov",
+  "title": "La Nuit de Gethsémani",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Nuit de Gethsémani (Classic Reprint)",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "13 mars 2019 – L'éloge de la lecture",
+  "author": "Abd al Malik",
+  "title": "Le Jeune Noir à l'épée",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 11,
+  "date": "27 mars 2019 – Religion et philosophie",
+  "author": "Annie Dillard",
+  "title": "Au présent",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 1
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 11,
+  "date": "20 mars 2019 – La parole donnée aux femmes",
+  "author": "Chloé Delaume",
+  "title": "Mes bien chères sœurs",
+  "sources": {
+   "google": 11,
+   "openlibrary": 1,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mes bien chères soeurs",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "24 avril 2019 – La beauté en littérature",
+  "author": "Sophie Brocas",
+  "title": "Le Baiser",
+  "sources": {
+   "google": 19,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le baiser",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "8 mai 2019 – Deux témoignages sur l'enfer de la Shoah",
+  "author": "Ginette Kolinka",
+  "title": "Retour à Auschwitz",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 6
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 11,
+  "date": "22 mai 2019 – Émission spéciale [[Laurent Gaudé]]",
+  "author": "Yanick Lahens",
+  "title": "L'Oiseau Parker dans la nuit",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'oiseau Parker dans la nuit",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": false,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 11,
+  "date": "10 avril 2019 – Les pouvoirs secrets de la lecture",
+  "author": "Boris Cyrulnik",
+  "title": "La nuit j'écrirai des soleils",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La nuit, j'écrirai des soleils",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "4 septembre 2019 – Faut-il croire au Paradis ?",
+  "author": "Amélie Nothomb",
+  "title": "Soif",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 7
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Soif",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "18 septembre 2019 – La figure de la mère",
+  "author": "Éric-Emmanuel Schmitt",
+  "title": "Journal d'un amour perdu",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Journal d'un amour perdu",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "4 septembre 2019 – Faut-il croire au Paradis ?",
+  "author": "Jack London",
+  "title": "Martin Eden",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Martin Eden : Martin Eden: Pursuit of Dreams and the Price of Success",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "9 octobre 2019 – Quête d'aventure, soif d'idéal",
+  "author": "Caryl Férey",
+  "title": "Paz",
+  "sources": {
+   "google": 17,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Paz : Livre album",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "23 octobre 2019 – Écrire sur la famille...mais à quel prix ?",
+  "author": "Christine Montalbetti",
+  "title": "Mon ancêtre Poisson",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mon ancêtre Poisson",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "6 novembre 2019 – Revisiter l'histoire de la langue française",
+  "author": "Alain Rey",
+  "title": "Dictionnaire historique de la langue française",
+  "sources": {
+   "google": 20,
+   "openlibrary": 10,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Dictionnaire historique de la langue française : A-L",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "13 novembre 2019 – Autour de [[James Ellroy]]",
+  "author": "Virginie Girod",
+  "title": "La Véritable Histoire des douze Césars",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La véritable histoire des douze Césars",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "25 septembre 2019 – Les écrivains et notre époque",
+  "author": "Jonathan Coe",
+  "title": "Le Cœur de l'Angleterre",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le cœur de l'Angleterre",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "11 décembre 2019 – La Révolution française",
+  "author": "Jean-Clément Martin",
+  "title": "Les Échos de la Terreur",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les échos de la Terreur : Vérités d'un mensonge d'Etat (1794-2001)",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "18 décembre 2019 – Émission spéciale littérature jeunesse",
+  "author": "Sibylline",
+  "title": "Rat et les animaux moches",
+  "sources": {
+   "google": 9,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Rat & les Animaux moches",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "27 novembre 2019 – Sauver la planète",
+  "author": "Edward Abbey",
+  "title": "Le Gang de la clef à molette",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 13
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le gang de la clef à molette",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "22 janvier 2020 – À quoi ressemblera l'humanité dans 20 ans ?",
+  "author": "Philip Kerr",
+  "title": "La Trilogie berlinoise",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 9
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Trilogie berlinoise",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "29 janvier 2020 – Autour de [[François Cheng]]",
+  "author": "François Cheng",
+  "title": "Quand reviennent les âmes errantes",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Quand reviennent les âmes errantes : Drame à trois voix avec choeur",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "15 janvier 2020 – Autour de [[Vanessa Springora]]",
+  "author": "Vanessa Springora",
+  "title": "Le Consentement",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le consentement",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "26 février 2020 – Les secrets de famille",
+  "author": "Benoît Séverac",
+  "title": "Tuer le fils",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Tuer le fils",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "19 février 2020 – Le nouveau discours amoureux",
+  "author": "Emmanuelle Richard",
+  "title": "Les Corps abstinents",
+  "sources": {
+   "google": 13,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les corps abstinents",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "18 mars 2020 – Le courage en littérature",
+  "author": "Michel Simonet",
+  "title": "Une rose et un balai",
+  "sources": {
+   "google": 11,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une rose et un balai : Récit de vie",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "4 mars 2020 – L'amour et la guerre",
+  "author": "Laurent Chalumeau",
+  "title": "VNR",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "VNR : roman",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "6 mai 2020 – De l'Histoire...et des histoires !",
+  "author": "Philippe Charlier",
+  "title": "Rituels",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "RITUELS",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "13 mai 2020 – À quoi sert la philosophie ?",
+  "author": "Christian Gailly",
+  "title": "Dit-il",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Dit-il",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "1er avril 2020 – Littérature de l'exil",
+  "author": "Alexis Laipsker",
+  "title": "...Et avec votre esprit",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Et avec votre esprit",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "27 mai 2020 – Polars",
+  "author": "Joël Dicker",
+  "title": "L'Énigme de la chambre 622",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Énigme de la Chambre 622 : Roman",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "3 juin 2020 – Autour de Bernard-Henri Lévy",
+  "author": "Corine Pelluchon",
+  "title": "Réparons le monde : humains, animaux, nature",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Réparons le monde : Humains, animaux, nature",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "17 juin 2020 – Les écrivains aux multiples talents",
+  "author": "Jean-Luc A",
+  "title": "Souviens-toi des monstres",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Souviens-toi des monstres",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 12,
+  "date": "24 juin 2020 – La vie ordinaire, mode d'emploi",
+  "author": "Aro Sáinz de la Maza",
+  "title": "Le Bourreau de Gaudí",
+  "sources": {
+   "google": 16,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Bourreau de Gaudí",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "9 septembre 2020 – Les femmes brisent le silence",
+  "author": "Éric Laurrent",
+  "title": "Une fille de rêve",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une fille de rêve",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "2 septembre 2020 – Lire, vivre et grandir",
+  "author": "Amélie Nothomb",
+  "title": "Les Aérostats",
+  "sources": {
+   "google": 11,
+   "openlibrary": 1,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Aérostats",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "16 septembre 2020 – Yoga, bonheur et littérature",
+  "author": "Pascal Quignard",
+  "title": "Tous les matins du monde",
+  "sources": {
+   "google": 20,
+   "openlibrary": 7,
+   "bnf": 19
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Tous les matins du monde",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "30 septembre 2020 – Vivre, se souvenir, transmettre... et vieillir",
+  "author": "Roland Topor",
+  "title": "Le Locataire chimérique",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le locataire chimérique : roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "28 octobre 2020 – Comment Internet et les réseaux sociaux règlent et dérèglent nos vies ?",
+  "author": "Éric Reinhardt",
+  "title": "Comédies françaises",
+  "sources": {
+   "google": 20,
+   "openlibrary": 3,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Comédies françaises : roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "7 octobre 2020 – Autour d'Eddy Mitchell",
+  "author": "Baru",
+  "title": "Quéquette Blues",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 11
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Quéquette blues",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "11 novembre 2020 – Autour d'[[Élisabeth Badinter]]",
+  "author": "Ken Kesey",
+  "title": "Et quelquefois j'ai comme une grande idée",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Et quelquefois j'ai comme une grande idée",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "25 novembre 2020 – Confinement et quête de sens",
+  "author": "Jean-Marie Gustave Le Clezio",
+  "title": "Le flot de la poésie continuera de couler",
+  "sources": {
+   "google": 9,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le flot de la poésie continuera de couler",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "2 décembre 2020 – Du loufoque dans l'ordinaire",
+  "author": "Winshluss",
+  "title": "Pinocchio",
+  "sources": {
+   "google": 20,
+   "openlibrary": 3,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Pinocchio",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "20 janvier 2021 – La masculinité",
+  "author": "Ivan Jablonka",
+  "title": "Un garçon comme vous et moi",
+  "sources": {
+   "google": 15,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Un garçon comme vous et moi",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "6 janvier 2021 – Autour de Bernard Pivot",
+  "author": "Erik Orsenna",
+  "title": "Cochons – Voyage au pays du vivant",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Petit précis de mondialisation : Tome 6, Cochons. Voyage aux pays du Vivant",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "10 février 2021 – Fascination des faits divers",
+  "author": "Tiffany Tavernier",
+  "title": "L'Ami",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'ami",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "3 mars 2021 – Avoir 20 ans en 2021",
+  "author": "Shane Haddad",
+  "title": "Toni tout court",
+  "sources": {
+   "google": 6,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Toni tout court",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "17 mars 2021 – Désir, mode d'emploi",
+  "author": "Henri Gougaud",
+  "title": "J'ai pas fini mon rêve",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "J'ai pas fini mon rêve",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "24 mars 2021 – Le bicentenaire de la mort de Napoléon Bonaparte",
+  "author": "Frédéric Régent",
+  "title": "Les Maîtres de la Guadeloupe",
+  "sources": {
+   "google": 20,
+   "openlibrary": 3,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les maîtres de la Guadeloupe : Propriétaires d'esclaves 1635-1848",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "17 février 2021 – L’Histoire est un roman",
+  "author": "Thomas B",
+  "title": "L'Hiver du mécontentement",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'hiver du mécontentement",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "31 mars 2021 – Les combats et les métamorphoses des femmes",
+  "author": "Mika Biermann",
+  "title": "Trois jours dans la vie de Berthe Morisot",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Trois nuits dans la vie de Berthe Morisot",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "21 avril 2021 – La liberté d'expression, la compassion et la beauté",
+  "author": "James Agee et Walker Evans",
+  "title": "Louons maintenant les grands hommes",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Louons maintenant les grands hommes : Alabama, trois familles de métayers en 1936",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": false,
+   "publisher": false,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "28 avril 2021 – Journalisme et littérature",
+  "author": "Kiran Millwood Hargrave",
+  "title": "Les Graciés",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 13,
+  "date": "19 mai 2021 – Les contes et utopies",
+  "author": "Daniel Pennac",
+  "title": "Bartleby, mon frère",
+  "sources": {
+   "google": 13,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Bartleby mon frère",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "26 mai 2021 – Paris dans la littérature d'aujourd'hui",
+  "author": "Lydia Flem",
+  "title": "Paris fantasme",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Paris Fantasme",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "2 juin 2021 – L'enfance",
+  "author": "Jacqueline de Romilly",
+  "title": "Madame Einstein",
+  "sources": {
+   "google": 10,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 13,
+  "date": "23 juin 2021 – La vie après la mort",
+  "author": "Philippe Grimbert",
+  "title": "Les morts ne nous aiment plus",
+  "sources": {
+   "google": 15,
+   "openlibrary": 2,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les morts ne nous aiment plus",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "14 avril 2021 – À nos morts, à la vie !",
+  "author": "Jean-Marie Laclavetine",
+  "title": "La Vie des morts",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La vie des morts",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 13,
+  "date": "30 juin 2021 – La poésie du quotidien",
+  "author": "Anna Seghers",
+  "title": "La Septième Croix",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La\\Septieme Croix",
+   "from": [
+    "openlibrary"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": false,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "1er septembre 2021 – Le rapport au père",
+  "author": "Amélie Nothomb",
+  "title": "Premier Sang",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Premier Sang : Prix Renaudot 2021",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "15 septembre 2021 – Spéciale New-York",
+  "author": "Nicole Krauss",
+  "title": "Être un homme",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Être un homme",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "8 septembre 2021 – À quoi sert la littérature ?",
+  "author": "Lydie Salvayre",
+  "title": "Rêver debout",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Rêver debout",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "22 septembre 2021 – À quoi sert la littérature ?",
+  "author": "Cécile Coulon",
+  "title": "Seule en sa demeure",
+  "sources": {
+   "google": 13,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Seule en sa demeure",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "29 septembre 2021 – Les secrets de famille",
+  "author": "Pat Conroy",
+  "title": "Le Prince des Marées",
+  "sources": {
+   "google": 20,
+   "openlibrary": 3,
+   "bnf": 13
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Prince des marées",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "6 octobre 2021 – Émission spéciale Patrick Modiano",
+  "author": "Patrick Modiano",
+  "title": "La Ronde de nuit",
+  "sources": {
+   "google": 20,
+   "openlibrary": 7,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Ronde de nuit",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "20 octobre 2021 – Aux côtés de Chimamanda Ngozi Adichie",
+  "author": "Chimamanda Ngozi Adichie",
+  "title": "Notes sur le chagrin",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Notes sur le chagrin",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "27 octobre 2021 – Habiter le monde",
+  "author": "Douglas Coupland",
+  "title": "Toutes les familles sont psychotiques",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Toutes les familles sont psychotiques",
+   "from": [
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "10 novembre 2021 – La traversée du monde",
+  "author": "Makenzy Orcel",
+  "title": "Les Immortelles",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les immortelles",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "3 novembre 2021 – Histoire et psychologie",
+  "author": "John Dos Passos",
+  "title": "Le {{42e}} Parallèle",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "42e parallèle : 42nd parallel : roman",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "24 novembre 2021 – La vie d'après",
+  "author": "Marie de Hennezel",
+  "title": "Vivre avec l'invisible",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Vivre avec l'invisible",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "1er décembre 2021 – Livres et Histoire",
+  "author": "Anna Enquist",
+  "title": "Le retour",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Retour",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "5 janvier 2022 – La quête du bonheur",
+  "author": "Catherine Cusset",
+  "title": "La Définition du bonheur",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La définition du bonheur",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "12 janvier 2022 – Les écrivains à la barre",
+  "author": "Alexandre Seurat",
+  "title": "La Maladroite",
+  "sources": {
+   "google": 12,
+   "openlibrary": 1,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La maladroite",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "19 janvier 2022 – La littérature à l'heure d'Internet et des réseaux sociaux",
+  "author": "Gabriela Cabezón Cámara",
+  "title": "Pleine de grâce",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 14,
+  "date": "2 février 2022 – École et littérature",
+  "author": "Mathias Malzieu",
+  "title": "Le guerrier de porcelaine",
+  "sources": {
+   "google": 8,
+   "openlibrary": 1,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Guerrier de porcelaine",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "16 février 2022 – Autour de Gérard Depardieu et de Maigret",
+  "author": "Andreï Siniavski",
+  "title": "André-la-Poisse",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "André-la-Poisse",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "23 février 2022 – Autour de Bruno Latour",
+  "author": "Rachel Carson",
+  "title": "Printemps silencieux",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 15
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Printemps silencieux",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "2 mars 2022 – Folie et création",
+  "author": "John Irving",
+  "title": "Une prière pour Owen",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une prière pour Owen",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "23 mars 2022 – De la poésie dans notre quotidien",
+  "author": "Sophie Nauleau",
+  "title": "S'il en est encore temps",
+  "sources": {
+   "google": 17,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "S'il en est encore temps",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "30 mars 2022 – Crises passées et crises actuelles",
+  "author": "Frédéric Vitoux",
+  "title": "L'Ours et le philosophe",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'ours et le philosophe",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "13 avril 2022 – Rencontre, Delphine Horvilleur et Leïla Slimani",
+  "author": "Leïla Slimani",
+  "title": "Le Pays des autres, tome 2 : Regardez-nous danser",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 14,
+  "date": "4 mai 2022 – Émission spéciale [[Annie Ernaux]]",
+  "author": "Henry Miller",
+  "title": "Printemps noir",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Printemps noir",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "11 mai 2022 – Émission spéciale [[Sylvain Tesson]]",
+  "author": "André de Richaud",
+  "title": "La nuit aveuglante",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La nuit aveuglante : roman",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 14,
+  "date": "25 mai 2022 – En direct du Festival de Cannes",
+  "author": "Cyril Gély",
+  "title": "La Forêt au violon",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 15,
+  "date": "14 septembre 2022",
+  "author": "Anthony Passeron",
+  "title": "Les Enfants endormis",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Enfants endormis",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "28 septembre 2022",
+  "author": "Amélie Nothomb",
+  "title": "Le Livre des sœurs",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Livre des soeurs",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "7 septembre 2022<ref>{{Lien web|url=https://www.livreshebdo.fr/article/le-programme-des-deux-premieres-grandes-librairies-daugustin-trapenard|titre=Le programme des deux premières \"Grandes librairies\" d'Augustin Trapenard|site=Livres Hebdo|date=30 août 2022}}.</ref>.",
+  "author": "Lola Lafon",
+  "title": "Quand tu écouteras cette chanson",
+  "sources": {
+   "google": 8,
+   "openlibrary": 1,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Quand tu écouteras cette chanson",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "5 octobre 2022",
+  "author": "Joann Sfar",
+  "title": "La Synagogue",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Synagogue",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "12 octobre 2022",
+  "author": "Éléna Piacentini",
+  "title": "Les Silences d'Ogliano",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Silences d'ogliano",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "26 octobre 2022",
+  "author": "Paul Desalmand",
+  "title": "Le Pilon",
+  "sources": {
+   "google": 18,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le pilon",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "9 novembre 2022",
+  "author": "Emmanuel Carrère",
+  "title": "V13",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "V13",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "16 novembre 2022",
+  "author": "Philippe Delerm",
+  "title": "Proust, instantanés",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 15,
+  "date": "23 novembre 2022",
+  "author": "Yasmina Khadra",
+  "title": "Les vertueux",
+  "sources": {
+   "google": 18,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Vertueux",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "15 décembre 2022",
+  "author": "Fabrice Luchini",
+  "title": "La Fontaine et le confinement",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 15,
+  "date": "30 novembre 2022",
+  "author": "Mathilde Larrère",
+  "title": "Rage against the machisme",
+  "sources": {
+   "google": 10,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Rage against the machisme",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "4 janvier 2023",
+  "author": "Philippe Besson",
+  "title": "Ceci n'est pas un fait divers",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ceci n'est pas un fait divers",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "11 janvier 2023",
+  "author": "Simeon Wade",
+  "title": "Foucault en Californie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Foucault en Californie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "25 janvier 2023",
+  "author": "Dany Laferrière",
+  "title": "Petit traité du racisme en Amérique",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Petit traité du racisme en Amérique",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "1er février 2023",
+  "author": "Hajime Isayama",
+  "title": "L'Attaque des Titans",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Attaque des Titans T08",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "15 février 2023",
+  "author": "Daniel Pennac",
+  "title": "Terminus Malaussène",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Terminus Malaussène",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "1er mars 2023",
+  "author": "Erri De Luca",
+  "title": "Itinéraires",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Itinéraires : oeuvres choisies",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "8 mars 2023",
+  "author": "Marguerite Abouet",
+  "title": "Aya de Yopougon",
+  "sources": {
+   "google": 20,
+   "openlibrary": 6,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Aya de Yopougon",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "15 mars 2023",
+  "author": "Sigrid Undset",
+  "title": "Jenny",
+  "sources": {
+   "google": 20,
+   "openlibrary": 16,
+   "bnf": 9
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Jenny",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "29 mars 2023",
+  "author": "Alban Cerisier",
+  "title": "Il était une fois... Le Petit Prince",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Il était une fois le petit prince d'Antoine de Saint-Exupéry",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "05 avril 2023",
+  "author": "Ginette Kolinka",
+  "title": "Une vie heureuse",
+  "sources": {
+   "google": 11,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une vie heureuse",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "26 avril 2023",
+  "author": "Edgar Hilsenrath",
+  "title": "Orgasme à Moscou",
+  "sources": {
+   "google": 7,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Orgasme à Moscou",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "19 avril 2023",
+  "author": "Marc Dugain",
+  "title": "Tsunami",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Tsunami",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "3 mai 2023",
+  "author": "Laurine Roux",
+  "title": "L'Autre Moitié du monde",
+  "sources": {
+   "google": 14,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'autre moitié du monde",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 15,
+  "date": "17 mai 2023",
+  "author": "Ahmet Altan",
+  "title": "Madame Hayat",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Madame Hayat",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "6 septembre 2023",
+  "author": "Sorj Chalandon",
+  "title": "L'Enragé",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'enragé",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "13 septembre 2023",
+  "author": "Maria Pourchet",
+  "title": "Western",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Western : Prix de Flore 2023",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "20 septembre 2023",
+  "author": "Neige Sinno",
+  "title": "Triste tigre",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Triste tigre",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "27 septembre 2023",
+  "author": "David Grann",
+  "title": "Les Naufragés du Wager",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Naufragés du Wager",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "11 octobre 2023",
+  "author": "Dimitri Kantcheloff",
+  "title": "Vie et mort de Vernon Sullivan",
+  "sources": {
+   "google": 4,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Vie et mort de Vernon Sullivan",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "4 octobre 2023",
+  "author": "Patrick Modiano",
+  "title": "La Danseuse",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La danseuse",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "1er novembre 2023",
+  "author": "Sophie Galabru",
+  "title": "Faire famille",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Faire famille : Une philosophie des liens",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "17 octobre 2023",
+  "author": "François Cheng",
+  "title": "L'éternité n'est pas de trop",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Eternité n'est pas de trop",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "15 novembre 2023",
+  "author": "Amélie Cordonnier",
+  "title": "En garde",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "En garde",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "8 novembre 2023",
+  "author": "Joann Sfar",
+  "title": "Le chat du rabbin",
+  "sources": {
+   "google": 20,
+   "openlibrary": 11,
+   "bnf": 20
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Chat du Rabbin - Tome 11 - La Bible pour les chats",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "22 novembre 2023",
+  "author": "Hélène Dorion",
+  "title": "Mes forêts",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 7
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mes forêts",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "29 novembre 2023",
+  "author": "Fabcaro",
+  "title": "Astérix - L'Iris blanc",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Astérix - L'Iris blanc - n°40",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "13 décembre 2023",
+  "author": "Kapka Kassabova",
+  "title": "L'écho du lac",
+  "sources": {
+   "google": 12,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'écho du lac : Guerre et paix à travers les Balkans",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "6 décembre 2023",
+  "author": "Claire Keegan",
+  "title": "Les trois lumières",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 6
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Trois Lumières",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "17 janvier 2024",
+  "author": "Christophe André",
+  "title": "S'estimer et s'oublier",
+  "sources": {
+   "google": 6,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "S'estimer et s'oublier",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "24 janvier 2024",
+  "author": "Jean-Marie Gustave Le Clézio",
+  "title": "Identité nomade",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Identité nomade",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "24 janvier 2024",
+  "author": "Aslak Nore",
+  "title": "Le cimetière de la mer",
+  "sources": {
+   "google": 4,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le cimetière de la mer",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "31 janvier 2024",
+  "author": "Madeleine Bourdouxhe",
+  "title": "La Femme de Gilles",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La femme de Gilles",
+   "from": [
+    "openlibrary"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "21 février 2024",
+  "author": "François Garde",
+  "title": "Mon oncle d'Australie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mon oncle d'Australie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "28 février 2024",
+  "author": "Emma Doude van Troostwijk",
+  "title": "Ceux qui appartiennent au jour",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ceux qui appartiennent au jour",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "6 mars 2024",
+  "author": "Simon Johannin",
+  "title": "Ici commence un amour",
+  "sources": {
+   "google": 9,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ici commence un amour",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "20 mars 2024",
+  "author": "Timothé Le Boucher",
+  "title": "Ces jours qui disparaissent",
+  "sources": {
+   "google": 7,
+   "openlibrary": 2,
+   "bnf": 8
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ces jours qui disparaissent",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "24 avril 2024",
+  "author": "Vincent Almendros",
+  "title": "Sous la menace",
+  "sources": {
+   "google": 6,
+   "openlibrary": 1,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Sous la menace",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "22 mai 2024",
+  "author": "Russell Banks",
+  "title": "Oh, Canada",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Oh, Canada",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 16,
+  "date": "7 février 2024",
+  "author": "Stefan Themerson",
+  "title": "Les Aventures de Peddy Bottom",
+  "sources": {
+   "google": 17,
+   "openlibrary": 1,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les aventures de Peddy Bottom",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "4 septembre 2024",
+  "author": "Alice Zeniter",
+  "title": "Frapper l’épopée",
+  "sources": {
+   "google": 6,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Frapper l'épopée",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "11 septembre 2024",
+  "author": "Amélie Nothomb",
+  "title": "L'Impossible retour",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 4
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Impossible retour",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "18 septembre 2024",
+  "author": "Amadou Hampâté Bâ",
+  "title": "Amkoullel, l'enfant Peul",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 9
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Amkoullel, l'enfant peul : mémoires",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "25 septembre 2024",
+  "author": "Michael Finkel",
+  "title": "Le Voleur d'art",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le voleur d'art : Une histoire d'amour et de crimes",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "9 octobre 2024",
+  "author": "Hélène Giannecchini",
+  "title": "Un désir démesuré d'amitié",
+  "sources": {
+   "google": 11,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Un désir démesuré d'amitié",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "23 octobre 2024",
+  "author": "Edgar Morin",
+  "title": "L'année a perdu son printemps",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'année a perdu son printemps",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "6 novembre 2024",
+  "author": "Douglas Kennedy",
+  "title": "Ailleurs, chez moi",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ailleurs, chez moi",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "23 octobre 2024",
+  "author": "Bertail",
+  "title": "Madeleine, résistante",
+  "sources": {
+   "google": 7,
+   "openlibrary": 3,
+   "bnf": 12
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Madeleine, Résistante",
+   "from": [
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": true
+  }
+ },
+ {
+  "season": 17,
+  "date": "13 novembre 2024",
+  "author": "Philippe Descola",
+  "title": "Cahier Philippe Descola",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 17,
+  "date": "27 novembre 2024",
+  "author": "Daniel Pennac",
+  "title": "Mon Assassin",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mon assassin",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "4 décembre 2024",
+  "author": "Maryvonne de Saint Pulgent",
+  "title": "La Gloire de Notre-Dame : La foi et le pouvoir",
+  "sources": {
+   "google": 8,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Gloire de Notre-Dame : La foi et le pouvoir",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "8 janvier 2025",
+  "author": "Vanessa Springora",
+  "title": "Patronyme",
+  "sources": {
+   "google": 6,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Patronyme",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "15 janvier 2025",
+  "author": "Sarah Jollien-Fardel",
+  "title": "La Longe",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Longe",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "29 janvier 2025",
+  "author": "Maxime Rovère",
+  "title": "Parler avec sa mère",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Parler avec sa mère",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "12 février 2025",
+  "author": "André Comte-Sponville",
+  "title": "L'Opportunité de vivre",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'opportunité de vivre : Ultimes études",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "19 février 2025",
+  "author": "Andreï Kourkov",
+  "title": "Notre guerre quotidienne",
+  "sources": {
+   "google": 14,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Notre guerre quotidienne",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "26 février 2025",
+  "author": "Lucie Baratte",
+  "title": "Roman de Ronce et d'Épine",
+  "sources": {
+   "google": 4,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Roman de Ronce et d'Épine",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "Mardi 11 mars 2025",
+  "author": "Christine Angot",
+  "title": "La nuit sur commande",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La nuit sur commande",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "Mardi 25 mars 2025",
+  "author": "Chimamanda Ngozi Adichie",
+  "title": "L'inventaire des rêves",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'inventaire des rêves",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "2 avril 2025",
+  "author": "Antonio Lobo Antunes",
+  "title": "Jusqu'à ce que les pierres deviennent plus douces que l'eau",
+  "sources": {
+   "google": 13,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Jusqu'à ce que les pierres deviennent plus douces que l'eau",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "23 avril 2025",
+  "author": "Stéphanie Hochet",
+  "title": "Armures",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Armures",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "7 mai 2025",
+  "author": "Christophe Ono-dit-Biot",
+  "title": "Mer intérieure",
+  "sources": {
+   "google": 12,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Mer intérieure",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "22 janvier 2025",
+  "author": "Rim Battal",
+  "title": "Je me regarderai dans les yeux",
+  "sources": {
+   "google": 4,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Je me regarderai dans les yeux",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "14 mai 2025",
+  "author": "Philippe Claudel",
+  "title": "Wanted",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Wanted",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 17,
+  "date": "28 mai 2025",
+  "author": "Tessae",
+  "title": "Frôler les murs",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Frôler les murs : Harcèlement, phobie scolaire, santé mentale Le témoignage de Tessae",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "3 septembre 2025",
+  "author": "Emmanuel Carrère",
+  "title": "Kolkhoze",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Kolkhoze",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "3 septembre 2025",
+  "author": "Joseph Incardona",
+  "title": "Le monde est fatigué",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le monde est fatigué",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "24 septembre 2025",
+  "author": "Fabrice Humbert",
+  "title": "De l'autre côté de la vie",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "De l'autre côté de la vie",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "10 septembre 2025",
+  "author": "Sébastien Ménestrier",
+  "title": "La petite zone avec de la lumière",
+  "sources": {
+   "google": 2,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "“La” petite zone avec de la lumière",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "1 octobre 2025",
+  "author": "Dorothée Letessier",
+  "title": "Le Voyage à Paimpol",
+  "sources": {
+   "google": 20,
+   "openlibrary": 4,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le voyage à Paimpol",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "15 octobre 2025",
+  "author": "Mardi Forestier",
+  "title": "Harde",
+  "sources": {
+   "google": 15,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Harde",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": false,
+   "year": true,
+   "pages": false,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "22 octobre 2025",
+  "author": "Ivan Péault",
+  "title": "Le plus beau village de France",
+  "sources": {
+   "google": 9,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le plus beau village de France",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "8 octobre 2025",
+  "author": "Elif Shafak",
+  "title": "Les fleuves du ciel",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les fleuves du ciel",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "29 octobre 2025",
+  "author": "Dan Brown",
+  "title": "Le Secret des secrets",
+  "sources": {
+   "google": 20,
+   "openlibrary": 20,
+   "bnf": 5
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le secret des secrets",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "19 novembre 2025",
+  "author": "Enki Bilal",
+  "title": "Bug - Tome 4",
+  "sources": {
+   "google": 19,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Bug Tome 4",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": false,
+   "year": true,
+   "pages": false,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "5 novembre 2025",
+  "author": "Raphaël Sigal",
+  "title": "Géographie de l'oubli",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Géographie de l'oubli - Rentrée littéraire 2025 - Prix Méduse 2025",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "26 novembre 2025",
+  "author": "Vinciane Despret",
+  "title": "Dieu, Darwin, tout et n'importe quoi",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Dieu, Darwin, tout et n'importe quoi - Histoires naturelles",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "7 janvier 2026",
+  "author": "Pierre Lemaitre",
+  "title": "Les Belles Promesses",
+  "sources": {
+   "google": 18,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Les Belles Promesses",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "10 décembre 2025",
+  "author": "Alfred de Montesquiou",
+  "title": "Le crépuscule des hommes",
+  "sources": {
+   "google": 15,
+   "openlibrary": 1,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Crépuscule des hommes",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "14 janvier 2026",
+  "author": "Timothée de Fombelle",
+  "title": "La vie entière",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La vie entière",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "28 janvier 2026",
+  "author": "Mathieu Simonet",
+  "title": "Le grain de beauté",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le grain de beauté",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "4 février 2026",
+  "author": "Lolita Pille",
+  "title": "Antigone Reine",
+  "sources": {
+   "google": 2,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Antigone reine - prix Essai France Télévisions 2026",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "21 janvier 2026",
+  "author": "François Bégaudeau",
+  "title": "Désertion",
+  "sources": {
+   "google": 11,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Désertion",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "18 février 2026",
+  "author": "Jean-Yves Jouannais",
+  "title": "Une forêt",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une forêt",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "4 mars 2026",
+  "author": "Wajdi Mouawad",
+  "title": "Le serment d’Europe",
+  "sources": {
+   "google": 10,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le serment d'Europe",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "11 mars 2026",
+  "author": "Lucie Azema",
+  "title": "Une saison à Téhéran",
+  "sources": {
+   "google": 1,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une saison à Téhéran",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "{{date|25 mars 2026}}",
+  "author": "André Velter",
+  "title": "Où se risque la chance ?",
+  "sources": {
+   "google": 15,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Où se risque la chance",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "{{date|29 avril 2026}}",
+  "author": "Melvin Mélissa",
+  "title": "Une pieuvre au plafond",
+  "sources": {
+   "google": 2,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Une pieuvre au plafond",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "{{date|15 avril 2026}}",
+  "author": "Mazarine M. Pingeot",
+  "title": "Inappropriable",
+  "sources": {
+   "google": 13,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Inappropriable : Ce que l'IA fait à l'humain",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 18,
+  "date": "{{date|20 mai 2026}}",
+  "author": "Yann Dedet",
+  "title": "Portrait de l'artiste en sale môme",
+  "sources": {
+   "google": 7,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Portrait de l'artiste en sale môme",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|2 septembre 2026}}",
+  "author": "Amélie Nothomb",
+  "title": "L'adolescence du perroquet",
+  "sources": {
+   "google": 13,
+   "openlibrary": 0,
+   "bnf": 3
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'Adolescence du perroquet",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|2 septembre 2026}}",
+  "author": "Yannick Haenel",
+  "title": "La solitude des professeurs est infinie",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La solitude des professeurs est infinie - Prix Femina 2026",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|2 septembre 2026}}",
+  "author": "Luz",
+  "title": "Un diamant dans les gravats",
+  "sources": {
+   "google": 5,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Un diamant dans les gravats",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|2 septembre 2026}}",
+  "author": "Thélyson Orélien",
+  "title": "C'était ça ou mourir",
+  "sources": {
+   "google": 10,
+   "openlibrary": 0,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "C'était ça ou mourir : Prix du roman Fnac 2026",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|2 septembre 2026}}",
+  "author": "Anne Godard",
+  "title": "Nous aussi",
+  "sources": {
+   "google": 20,
+   "openlibrary": 1,
+   "bnf": 2
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Nous aussi - Prix décembre 2026",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|9 septembre 2026}}",
+  "author": "Philippe Jaenada",
+  "title": "L'inconnue du quai de Javel",
+  "sources": {
+   "google": 4,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "L'inconnue du quai de Javel (Prix Goncourt 2026).",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|9 septembre 2026}}",
+  "author": "Lilia Hassaine",
+  "title": "JE",
+  "sources": {
+   "google": 11,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": false,
+  "foundBeyondTop5": false
+ },
+ {
+  "season": 19,
+  "date": "{{date|9 septembre 2026}}",
+  "author": "Adèle Haenel",
+  "title": "Viser juste",
+  "sources": {
+   "google": 3,
+   "openlibrary": 1,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Viser juste",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|16 septembre 2026}}",
+  "author": "Mathias Enard",
+  "title": "Hôtel Balkan",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Hôtel Balkan : Mélancolie des confins II – Est",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|16 septembre 2026}}",
+  "author": "François-Henri Désérable",
+  "title": "Le palais",
+  "sources": {
+   "google": 12,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Palais - Prix Renaudot 2026",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|16 septembre 2026}}",
+  "author": "Élise Lespade",
+  "title": "Paradisi Gloria",
+  "sources": {
+   "google": 1,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Paradisi gloria",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|23 septembre 2026}}",
+  "author": "Sibylle Grimbert",
+  "title": "La Grande Interruption",
+  "sources": {
+   "google": 1,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La Grande Interruption",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|23 septembre 2026}}",
+  "author": "Pascal Chabot",
+  "title": "Nos vies encapsulées. Quel devenir pour l'humanité ?",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Nos vies encapsulées : Quel devenir pour l'humanité ?",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|23 septembre 2026}}",
+  "author": "Sarah Tadlaoui",
+  "title": "Croire au code",
+  "sources": {
+   "google": 1,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Croire au code",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|30 septembre 2026}}",
+  "author": "Jean-Paul Dubois",
+  "title": "Chacun",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Chacun",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|30 septembre 2026}}",
+  "author": "Rachida Brakni",
+  "title": "La part absente",
+  "sources": {
+   "google": 1,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La part absente",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|30 septembre 2026}}",
+  "author": "Louise Chennevière",
+  "title": "Faire la peau",
+  "sources": {
+   "google": 10,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Faire la peau",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|30 septembre 2026}}",
+  "author": "Marie Colombe",
+  "title": "Le bruit du melon qui explose",
+  "sources": {
+   "google": 2,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le Bruit du melon qui explose",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": false,
+   "cover": false,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|7 octobre 2026}}",
+  "author": "Giuliano da Empoli",
+  "title": "Le fondateur",
+  "sources": {
+   "google": 20,
+   "openlibrary": 2,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Le fondateur",
+   "from": [
+    "google",
+    "openlibrary",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|7 octobre 2026}}",
+  "author": "Delphine Horvilleur",
+  "title": "Sermons sous les décombres",
+  "sources": {
+   "google": 1,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Sermons sous les décombres : Une prise de parole courageuse, humaniste et d'une portée universelle",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|7 octobre 2026}}",
+  "author": "Claude Guibal",
+  "title": "Ce que la guerre fait aux hommes",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Ce que la guerre fait aux hommes",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|7 octobre 2026}}",
+  "author": "Olivier Grondeau",
+  "title": "Joseph dans la nuit",
+  "sources": {
+   "google": 3,
+   "openlibrary": 0,
+   "bnf": 0
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Joseph dans la nuit",
+   "from": [
+    "google"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|14 octobre 2026}}",
+  "author": "Christine Angot",
+  "title": "Je change de nom",
+  "sources": {
+   "google": 20,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "Je change de nom",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|14 octobre 2026}}",
+  "author": "Emma Marsantes",
+  "title": "N'efface pas mes cercles",
+  "sources": {
+   "google": 6,
+   "openlibrary": 0,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "N'efface pas mes cercles",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ },
+ {
+  "season": 19,
+  "date": "{{date|7 octobre 2026}}",
+  "author": "Olivier Rolin",
+  "title": "La guerre éternelle",
+  "sources": {
+   "google": 20,
+   "openlibrary": null,
+   "bnf": 1
+  },
+  "found": true,
+  "foundBeyondTop5": false,
+  "hit": {
+   "title": "La guerre éternelle",
+   "from": [
+    "google",
+    "bnf"
+   ],
+   "author": true,
+   "isbn": true,
+   "publisher": true,
+   "year": true,
+   "pages": true,
+   "synopsis": true,
+   "cover": true,
+   "olSynopsis": false
+  }
+ }
+]
