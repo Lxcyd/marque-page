@@ -13,7 +13,8 @@ CREATE TABLE IF NOT EXISTS books (
   pages        INTEGER,
   language     TEXT,
   description  TEXT,
-  sources      TEXT NOT NULL DEFAULT '[]', -- JSON : google, openlibrary, bnf...
+  editions     INTEGER NOT NULL DEFAULT 0,  -- nb d'editions connues : notoriete (classement)
+  sources     TEXT NOT NULL DEFAULT '[]', -- JSON : google, openlibrary, bnf...
   created_at   INTEGER NOT NULL,
   updated_at   INTEGER NOT NULL,
   enrich_tries INTEGER NOT NULL DEFAULT 0, -- tentatives d'enrichissement (couverture / synopsis)

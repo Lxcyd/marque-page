@@ -12,6 +12,8 @@ export type Book = {
   pages?: number;
   language?: string;
   description?: string;
+  /** Nombre d'editions connues (Open Library) : signal de notoriete pour le classement. */
+  editions?: number;
   sources: Source[];
 };
 

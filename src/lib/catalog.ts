@@ -1,6 +1,6 @@
 import type { Row } from "@libsql/client";
 import { db } from "./db";
-import { merge, titleMatch, unlig, words, workKey } from "./search";
+import { merge, relevance, unlig, words, workKey } from "./search";
 import type { Book } from "./types";
 
 const fromRow = (r: Row): Book => ({
@@ -14,6 +14,7 @@ const fromRow = (r: Row): Book => ({
   pages: (r.pages as number) ?? undefined,
   language: (r.language as string) ?? undefined,
   description: (r.description as string) ?? undefined,
+  editions: (r.editions as number) || undefined,
   sources: JSON.parse(r.sources as string),
 });
 
@@ -31,20 +32,20 @@ export async function searchCatalog(q: string, limit = 30): Promise<Book[]> {
   const match = terms
     .map((t, i) => (i === terms.length - 1 && t.length >= 3 ? `"${t}"*` : `"${t}"`))
     .join(" ");
+  // 2x plus de candidats que de resultats : l'oeuvre la plus connue n'est pas
+  // forcement en tete du bm25 (qui favorise les titres courts).
   const { rows } = await c.execute({
     sql: `SELECT b.* FROM books_fts f JOIN books b ON b.seq = f.rowid
           WHERE books_fts MATCH ? ORDER BY bm25(books_fts) LIMIT ?`,
-    args: [match, limit],
+    args: [match, limit * 2],
   });
-  // bm25 trouve les candidats ; on les reclasse comme la recherche en direct
-  // (titre exact > fiche complete), a ordre bm25 egal.
+  // reclasse comme la recherche en direct : titre exact, notoriete, francais, fiche complete
   const qWords = new Set(terms);
-  const rank = (b: Book, i: number) =>
-    titleMatch(b, qWords) * 30 + (b.authors.length ? 6 : 0) + (b.cover ? 4 : 0) + (b.description ? 2 : 0) - i * 0.2;
   return rows
     .map(fromRow)
-    .map((b, i) => ({ b, s: rank(b, i) }))
+    .map((b, i) => ({ b, s: relevance(b, qWords, i) }))
     .sort((x, y) => y.s - x.s)
+    .slice(0, limit)
     .map((x) => x.b);
 }
 
@@ -86,14 +87,15 @@ export async function upsertBooks(books: Book[]): Promise<number> {
     const ftsChanged = !prev || ftsText(prev) !== ftsText(b);
     return [
     {
-      sql: `INSERT INTO books (id, title, authors, year, publisher, isbn, cover, pages, language, description, sources, created_at, updated_at)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      sql: `INSERT INTO books (id, title, authors, year, publisher, isbn, cover, pages, language, description, editions, sources, created_at, updated_at)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(id) DO UPDATE SET title=excluded.title, authors=excluded.authors, year=excluded.year,
               publisher=excluded.publisher, isbn=excluded.isbn, cover=excluded.cover, pages=excluded.pages,
-              language=excluded.language, description=excluded.description, sources=excluded.sources,
-              updated_at=excluded.updated_at`,
+              language=excluded.language, description=excluded.description, editions=excluded.editions,
+              sources=excluded.sources, updated_at=excluded.updated_at`,
       args: [b.id, b.title, JSON.stringify(b.authors), b.year ?? null, b.publisher ?? null, b.isbn ?? null,
-        b.cover ?? null, b.pages ?? null, b.language ?? null, b.description ?? null, JSON.stringify(b.sources), now, now],
+        b.cover ?? null, b.pages ?? null, b.language ?? null, b.description ?? null, b.editions ?? 0,
+        JSON.stringify(b.sources), now, now],
     },
     ...(ftsChanged
       ? [

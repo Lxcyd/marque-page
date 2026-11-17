@@ -63,7 +63,7 @@ export async function searchBnf(q: string, signal: AbortSignal): Promise<Book[]>
         // ouvrages collectifs : le directeur est en "contributor", pas en "creator"
         authors: (all(rec, "creator").length ? all(rec, "creator") : all(rec, "contributor").slice(0, 2)).map(cleanAuthor),
         year: all(rec, "date")[0]?.match(/\d{4}/)?.[0],
-        publisher: all(rec, "publisher")[0]?.replace(/\s*\(.*\)\s*$/, ""),
+        publisher: all(rec, "publisher")[0]?.replace(/\s*\(.*\)\s*$/, "").replace(/[[\]]/g, "").trim() || undefined,
         isbn: recIsbn,
         cover: recIsbn ? `https://covers.openlibrary.org/b/isbn/${recIsbn}-M.jpg?default=false` : undefined,
         pages: pages ? Number(pages) : undefined,

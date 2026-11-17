@@ -1,4 +1,5 @@
 import { isFrenchIsbn } from "./isbn";
+import { KNOWN_PUBLISHER, POOR_PUBLISHER } from "./publishers";
 import { searchBnf } from "./sources/bnf";
 import { searchGoogle } from "./sources/google";
 import { searchOpenLibrary } from "./sources/openlibrary";
@@ -17,8 +18,15 @@ const norm = (s = "") =>
     .replace(/^(l'|le |la |les |un |une |the )/, "")
     .replace(/[^a-z0-9]/g, "");
 
-/** Nom de famille : "Dostoïevski, Fiodor" -> avant la virgule ; "Fiodor Dostoïevski" -> dernier mot. */
-const surname = (a?: string) => norm(a?.includes(",") ? a.split(",")[0] : a?.trim().split(/\s+/).pop());
+/**
+ * Nom de famille : "Dostoïevski, Fiodor" -> avant la virgule ; "Fiodor Dostoïevski" -> dernier mot ;
+ * les initiales ne comptent pas ("Saint-Exupery A." -> saintexupery).
+ */
+const surname = (a?: string) => {
+  if (a?.includes(",")) return norm(a.split(",")[0]);
+  const parts = a?.trim().split(/\s+/).filter((p) => !/^\p{L}\.?$/u.test(p)) ?? [];
+  return norm(parts.pop());
+};
 
 /** "Le Chien jaune - Edition Collector (French Edition)" -> "Le Chien jaune" */
 const mainTitle = (t: string) => t.split(/\s[-:(\[]\s?|\s\/\s/)[0];
@@ -42,29 +50,62 @@ export function titleMatch(b: Book, qWords: Set<string>): number {
   return t.filter((w) => qWords.has(w)).length / t.length;
 }
 
+/** Qualite d'une EDITION (pas de l'oeuvre) : laquelle montrer pour une oeuvre. */
+export const editionQuality = (b: Book) =>
+  (b.cover ? 8 : 0) +
+  (isFrenchIsbn(b.isbn) ? 3 : b.isbn ? 1 : 0) +
+  (b.publisher ? 1 : 0) +
+  (KNOWN_PUBLISHER.test(b.publisher ?? "") ? 4 : 0) +
+  (POOR_PUBLISHER.test(b.publisher ?? "") ? -6 : 0) +
+  (b.language === "fr" ? 2 : 0);
+
+/**
+ * Fusionne deux fiches d'une meme oeuvre. Les champs d'edition (titre, editeur, ISBN, couverture,
+ * pages) viennent en bloc de la meilleure edition, pour rester coherents ; l'autre comble les trous.
+ * L'annee est la plus ancienne : celle de l'oeuvre (Candide : 1759), pas d'une reimpression.
+ */
 export function merge(a: Book, b: Book): Book {
+  const [best, other] = editionQuality(b) > editionQuality(a) ? [b, a] : [a, b];
+  const years = [a.year, b.year].filter((y): y is string => !!y && /^\d{4}/.test(y)).sort();
   return {
-    ...a,
-    authors: a.authors.length ? a.authors : b.authors,
-    year: a.year ?? b.year,
-    publisher: a.publisher ?? b.publisher,
-    isbn: isFrenchIsbn(a.isbn) ? a.isbn : (b.isbn ?? a.isbn),
-    cover: a.cover ?? b.cover,
-    pages: a.pages ?? b.pages,
-    language: a.language ?? b.language,
-    description: a.description ?? b.description,
+    ...best,
+    id: a.id,
+    authors: best.authors.length ? best.authors : other.authors,
+    year: years[0] ?? best.year ?? other.year,
+    publisher: best.publisher ?? other.publisher,
+    isbn: best.isbn ?? other.isbn,
+    cover: best.cover ?? other.cover,
+    pages: best.pages ?? other.pages,
+    language: best.language ?? other.language,
+    description: (a.description?.length ?? 0) >= (b.description?.length ?? 0) ? (a.description ?? b.description) : b.description,
+    editions: Math.max(a.editions ?? 0, b.editions ?? 0) || undefined,
     sources: [...new Set([...a.sources, ...b.sources])],
   };
 }
 
-function score(b: Book, rank: number, qWords: Set<string>): number {
+/** Ouvrages SUR une oeuvre (etudes, fiches, editions annotees) : derriere l'oeuvre elle-meme. */
+const DERIVED = new Set(["etude", "analyse", "commentaire", "commentaires", "fiche", "fiches", "profil", "resume",
+  "explication", "dossier", "guide", "questionnaire", "bac", "parcours", "annotated", "notes", "study", "summary"]);
+
+/**
+ * Pertinence d'un livre pour une requete, commune au catalogue et a la recherche en direct.
+ * "candide" -> Candide de Voltaire (titre exact, des centaines d'editions, couverture)
+ * avant "Candide : fiche de lecture" ou un roman anglais qui contient "candide".
+ */
+export function relevance(b: Book, qWords: Set<string>, rank = 0): number {
+  const tw = words(b.title);
+  const derived = tw.some((w) => DERIVED.has(w)) && ![...qWords].some((w) => DERIVED.has(w));
+  const french = b.language === "fr" || isFrenchIsbn(b.isbn);
   return (
     titleMatch(b, qWords) * 30 +
-    -rank * 0.5 + // ordre d'origine dans la meilleure source
-    (b.sources.length - 1) * 4 + // confirme par plusieurs catalogues
-    (b.language === "fr" || isFrenchIsbn(b.isbn) ? 6 : 0) +
+    Math.log2(1 + (b.editions ?? 0)) * 4 + // 1 edition : 4 ; 255 editions : 32
+    (french ? 6 : b.language ? -8 : 0) +
     (b.cover ? 4 : 0) +
-    (b.authors.length ? 2 : 0)
+    (b.description ? 2 : 0) +
+    (b.authors.length ? 2 : 0) +
+    (b.sources.length - 1) * 3 + // confirme par plusieurs catalogues
+    (derived ? -15 : 0) -
+    rank * 0.3 // ordre d'origine (bm25, ou rang dans la source)
   );
 }
 
@@ -93,9 +134,16 @@ export async function searchBooks(
   // Ordre = priorite pour les champs fusionnes (titre, couverture...) : la BnF passe en dernier, ses titres sont bruts.
   const order = (["google", "openlibrary", "bnf"] as Source[]).filter((s) => !opts.only || opts.only.includes(s));
   const raw = await Promise.all(order.map((s) => withTimeout(s, q, opts)));
-  const results = raw.map((r) => r ?? []);
-  const qWords = new Set(words(q));
+  return {
+    books: fuse(raw.map((r) => r ?? []), q),
+    // null = source en echec
+    sources: Object.fromEntries(order.map((s, i) => [s, raw[i]?.length ?? null])) as Record<Source, number | null>,
+  };
+}
 
+/** Fusionne des listes de resultats (meme ISBN ou meme oeuvre = une fiche) et les classe par pertinence. */
+export function fuse(results: Book[][], q: string): Book[] {
+  const qWords = new Set(words(q));
   const byKey = new Map<string, { book: Book; rank: number }>();
   const keyByIsbn = new Map<string, string>();
   results.forEach((list) =>
@@ -109,14 +157,8 @@ export async function searchBooks(
     }),
   );
 
-  const books = [...byKey.values()]
-    .sort((x, y) => score(y.book, y.rank, qWords) - score(x.book, x.rank, qWords))
+  return [...byKey.values()]
+    .sort((x, y) => relevance(y.book, qWords, y.rank) - relevance(x.book, qWords, x.rank))
     .map((x) => x.book)
     .slice(0, 30);
-
-  return {
-    books,
-    // null = source en echec
-    sources: Object.fromEntries(order.map((s, i) => [s, raw[i]?.length ?? null])) as Record<Source, number | null>,
-  };
 }
