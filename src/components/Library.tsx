@@ -43,9 +43,15 @@ export function Library() {
         </p>
       ) : (
         <ul className="mt-6 grid grid-cols-2 gap-x-5 gap-y-8 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-          {shown.map((e) => (
+          {shown.map((e, i) => (
             <li key={e.id} className="group">
-              <Cover src={e.cover} title={e.title} className="transition group-hover:-translate-y-0.5 group-hover:shadow-md" />
+              <Cover
+                src={e.cover}
+                title={e.title}
+                width={200}
+                priority={i < 4}
+                className="transition group-hover:-translate-y-0.5 group-hover:shadow-md"
+              />
               <p className="mt-2 line-clamp-2 font-serif text-sm leading-snug text-stone-900">{e.title}</p>
               <p className="truncate text-xs text-stone-500">{e.authors.join(", ")}</p>
               <div className="mt-1.5 flex items-center justify-between">

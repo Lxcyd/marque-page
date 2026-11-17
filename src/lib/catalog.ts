@@ -38,8 +38,10 @@ export async function searchCatalog(q: string, limit = 30): Promise<Book[]> {
   //   a insere les fiches les plus completes d'abord.
   // - titre exact par l'index de la cle (id = "titre|auteur"), les plus editees d'abord
   //   (13 a 130 lignes) : l'oeuvre connue est la meme si le mot est tres frequent.
+  // - titres qui COMMENCENT par la saisie ("la veg" -> vegetarienne...), dans l'ordre de
+  //   l'index, 200 au plus : la frappe en cours trouve le titre avant le mot complet.
   const key = titleKey(q);
-  const [fts, exact] = await Promise.all([
+  const [fts, exact, starts] = await Promise.all([
     c.execute({
       sql: `SELECT b.* FROM books_fts f JOIN books b ON b.seq = f.rowid WHERE books_fts MATCH ? LIMIT 300`,
       args: [match],
@@ -50,13 +52,18 @@ export async function searchCatalog(q: string, limit = 30): Promise<Book[]> {
           args: [`${key}|`, `${key}|~`],
         })
       : { rows: [] as Row[] },
+    key.length >= 3
+      ? c.execute({ sql: "SELECT * FROM books WHERE id >= ? AND id < ? LIMIT 200", args: [key, `${key}~`] })
+      : { rows: [] as Row[] },
   ]);
   const byId = new Map<string, Book>();
-  for (const r of [...exact.rows, ...fts.rows]) byId.set(r.id as string, fromRow(r));
-  // classement : titre exact, notoriete, francais, fiche complete
+  for (const r of [...exact.rows, ...starts.rows, ...fts.rows]) byId.set(r.id as string, fromRow(r));
+  // classement : titre exact (le dernier mot en prefixe), notoriete, francais, fiche complete
   const qWords = new Set(terms);
+  const last = terms[terms.length - 1];
+  const prefix = last.length >= 3 ? last : undefined;
   return [...byId.values()]
-    .map((b) => ({ b, s: relevance(b, qWords) }))
+    .map((b) => ({ b, s: relevance(b, qWords, 0, prefix) }))
     .sort((x, y) => y.s - x.s)
     .slice(0, limit)
     .map((x) => x.b);

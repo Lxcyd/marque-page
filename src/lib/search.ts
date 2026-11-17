@@ -48,10 +48,11 @@ export const words = (s: string) =>
     .filter((w) => w && !STOP.has(w));
 
 /** Part des mots du titre presents dans la requete : "Le Petit Prince" bat "Le Petit Prince : puzzles". */
-export function titleMatch(b: Book, qWords: Set<string>): number {
+export function titleMatch(b: Book, qWords: Set<string>, prefix?: string): number {
   const t = words(b.title);
   if (!t.length) return 0;
-  return t.filter((w) => qWords.has(w)).length / t.length;
+  // prefix = mot en cours de frappe : "veg" compte pour "vegetarienne"
+  return t.filter((w) => qWords.has(w) || (!!prefix && w.startsWith(prefix))).length / t.length;
 }
 
 /** Qualite d'une EDITION (pas de l'oeuvre) : laquelle montrer pour une oeuvre. */
@@ -96,12 +97,21 @@ const DERIVED = new Set(["etude", "analyse", "commentaire", "commentaires", "fic
  * "candide" -> Candide de Voltaire (titre exact, des centaines d'editions, couverture)
  * avant "Candide : fiche de lecture" ou un roman anglais qui contient "candide".
  */
-export function relevance(b: Book, qWords: Set<string>, rank = 0): number {
+export function relevance(b: Book, qWords: Set<string>, rank = 0, prefix?: string): number {
   const tw = words(b.title);
   const derived = tw.some((w) => DERIVED.has(w)) && ![...qWords].some((w) => DERIVED.has(w));
   const french = b.language === "fr" || isFrenchIsbn(b.isbn);
+  // Part de la requete qui designe l'auteur : "houellebecq" -> ses romans avant les livres SUR lui.
+  const aw = new Set(words(b.authors.join(" ")));
+  const byAuthor = qWords.size
+    ? [...qWords].filter(
+        // mot en cours : 5 lettres au moins ("veg" ne doit pas designer Lope de Vega)
+        (w) => aw.has(w) || (w === prefix && w.length >= 5 && [...aw].some((a) => a.startsWith(w))),
+      ).length / qWords.size
+    : 0;
   return (
-    titleMatch(b, qWords) * 30 +
+    titleMatch(b, qWords, prefix) * 30 +
+    byAuthor * 25 +
     Math.log2(1 + (b.editions ?? 0)) * 4 + // 1 edition : 4 ; 255 editions : 32
     (french ? 6 : b.language ? -8 : 0) +
     (b.cover ? 4 : 0) +

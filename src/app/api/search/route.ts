@@ -8,7 +8,8 @@ import { fuse, searchBooks, titleMatch, words, workKey } from "@/lib/search";
  * BnF 4-40 s), et les trois sources passent APRES la reponse pour enrichir le catalogue.
  */
 export async function GET(request: Request) {
-  const q = new URL(request.url).searchParams.get("q")?.trim().slice(0, 200) ?? "";
+  const params = new URL(request.url).searchParams;
+  const q = params.get("q")?.trim().slice(0, 200) ?? "";
   if (q.length < 2) return Response.json({ books: [], from: "none" });
 
   const local = await searchCatalog(q).catch((e) => {
@@ -16,8 +17,12 @@ export async function GET(request: Request) {
     return [];
   });
   const qWords = new Set(words(q));
-  if (local.some((b) => titleMatch(b, qWords) === 1)) {
-    return Response.json({ books: local, from: "catalog" }, { headers: cache });
+  const exact = local.some((b) => titleMatch(b, qWords) === 1);
+  // Suggestions pendant la frappe : catalogue seul. Un mot en cours ("cand") ne doit ni
+  // attendre Google ni consommer son quota (1 000/jour) ; le client demande la recherche
+  // complete apres une pause, et seulement si exact = false.
+  if (exact || params.get("mode") === "suggest") {
+    return Response.json({ books: local, from: "catalog", exact }, { headers: cache });
   }
 
   // Pas de titre exact en base ("l'etranger camus" -> seulement une etude) : complement en direct.

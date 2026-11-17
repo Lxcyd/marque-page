@@ -12,6 +12,7 @@ const cases: [string, string, (string | number)[], number][] = [
   ["fts 'dostoievski idiot'", fts, ['"dostoievski" "idiot"*'], 700],
   ["titre exact 'histoire'", exact, ["histoire|", "histoire|~"], 300],
   ["titre exact 'candide'", exact, ["candide|", "candide|~"], 300],
+  ["titre commence par 'ca'", "SELECT * FROM books WHERE id >= ? AND id < ? LIMIT 200", ["ca", "ca~"], 450],
   ["fts maj : delete par rowid", "SELECT rowid FROM books_fts WHERE rowid = (SELECT seq FROM books WHERE id = ?)", ["candide|voltaire"], 5],
   ["upsert : select par id", "SELECT * FROM books WHERE id IN (?)", ["candide|voltaire"], 5],
   [
