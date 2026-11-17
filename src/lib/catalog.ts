@@ -1,6 +1,6 @@
 import type { Row } from "@libsql/client";
 import { db } from "./db";
-import { merge, unlig, words, workKey } from "./search";
+import { merge, titleMatch, unlig, words, workKey } from "./search";
 import type { Book } from "./types";
 
 const fromRow = (r: Row): Book => ({
@@ -19,19 +19,41 @@ const fromRow = (r: Row): Book => ({
 
 const ftsText = (b: Book) => unlig(`${b.title} ${b.authors.join(" ")}`);
 
-/** Recherche dans le catalogue local : tous les mots doivent apparaitre (prefixes acceptes). */
+/**
+ * Recherche dans le catalogue local : tous les mots doivent apparaitre.
+ * Seul le DERNIER mot est cherche en prefixe (saisie en cours), et a partir de 3 lettres :
+ * un prefixe court ("ma"*) lit des milliers d'entrees d'index (mesure : 2 154 lignes sur 3 800 livres).
+ */
 export async function searchCatalog(q: string, limit = 30): Promise<Book[]> {
   const c = db();
   const terms = words(q).filter((w) => w.length > 1);
   if (!c || !terms.length) return [];
-  const match = terms.map((t) => `"${t}"*`).join(" ");
+  const match = terms
+    .map((t, i) => (i === terms.length - 1 && t.length >= 3 ? `"${t}"*` : `"${t}"`))
+    .join(" ");
   const { rows } = await c.execute({
-    sql: `SELECT b.* FROM books_fts f JOIN books b ON b.id = f.id
+    sql: `SELECT b.* FROM books_fts f JOIN books b ON b.seq = f.rowid
           WHERE books_fts MATCH ? ORDER BY bm25(books_fts) LIMIT ?`,
     args: [match, limit],
   });
-  return rows.map(fromRow);
+  // bm25 trouve les candidats ; on les reclasse comme la recherche en direct
+  // (titre exact > fiche complete), a ordre bm25 egal.
+  const qWords = new Set(terms);
+  const rank = (b: Book, i: number) =>
+    titleMatch(b, qWords) * 30 + (b.authors.length ? 6 : 0) + (b.cover ? 4 : 0) + (b.description ? 2 : 0) - i * 0.2;
+  return rows
+    .map(fromRow)
+    .map((b, i) => ({ b, s: rank(b, i) }))
+    .sort((x, y) => y.s - x.s)
+    .map((x) => x.b);
 }
+
+/** Egalite de contenu, independante de l'ordre des cles et des champs vides. */
+const canon = (b: Book) => {
+  const o = Object.fromEntries(Object.entries({ ...b, id: "" }).filter(([, v]) => v !== undefined && v !== null));
+  return JSON.stringify(o, Object.keys(o).sort());
+};
+const same = (a: Book, b: Book) => canon(a) === canon(b);
 
 /** Ajoute ou complete des livres (les champs deja connus ne sont jamais effaces). */
 export async function upsertBooks(books: Book[]): Promise<number> {
@@ -56,7 +78,13 @@ export async function upsertBooks(books: Book[]): Promise<number> {
     merged.set(id, { ...(prev ? merge(prev, b) : b), id });
   });
 
-  const stmts = [...merged.values()].flatMap((b) => [
+  // N'ecrit que ce qui change : une ligne inchangee ne coute aucune ecriture,
+  // et l'index plein texte n'est reecrit que si le titre ou les auteurs changent.
+  const stmts = [...merged.values()].flatMap((b) => {
+    const prev = existing.get(b.id);
+    if (prev && same(prev, b)) return [];
+    const ftsChanged = !prev || ftsText(prev) !== ftsText(b);
+    return [
     {
       sql: `INSERT INTO books (id, title, authors, year, publisher, isbn, cover, pages, language, description, sources, created_at, updated_at)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
@@ -67,9 +95,15 @@ export async function upsertBooks(books: Book[]): Promise<number> {
       args: [b.id, b.title, JSON.stringify(b.authors), b.year ?? null, b.publisher ?? null, b.isbn ?? null,
         b.cover ?? null, b.pages ?? null, b.language ?? null, b.description ?? null, JSON.stringify(b.sources), now, now],
     },
-    { sql: "DELETE FROM books_fts WHERE id = ?", args: [b.id] },
-    { sql: "INSERT INTO books_fts (id, text) VALUES (?, ?)", args: [b.id, ftsText(b)] },
-  ]);
-  await c.batch(stmts, "write");
+    ...(ftsChanged
+      ? [
+          // par rowid : 1 ligne lue (un DELETE par colonne parcourait tout l'index)
+          { sql: "DELETE FROM books_fts WHERE rowid = (SELECT seq FROM books WHERE id = ?)", args: [b.id] },
+          { sql: "INSERT INTO books_fts (rowid, text) SELECT seq, ? FROM books WHERE id = ?", args: [ftsText(b), b.id] },
+        ]
+      : []),
+    ];
+  });
+  if (stmts.length) await c.batch(stmts, "write");
   return merged.size;
 }

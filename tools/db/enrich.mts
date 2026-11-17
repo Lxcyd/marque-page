@@ -44,9 +44,9 @@ async function fromOpenLibrary(isbn: string) {
 
 const { rows } = await c.execute({
   sql: `SELECT id, isbn, cover, description FROM books
-        WHERE (cover IS NULL OR description IS NULL) AND isbn IS NOT NULL
-          AND enrich_tries < 5 AND (enriched_at IS NULL OR enriched_at < ?)
-        ORDER BY enriched_at IS NOT NULL, enriched_at LIMIT ?`,
+        WHERE (cover IS NULL OR description IS NULL) AND isbn IS NOT NULL AND enrich_tries < 5
+          AND enriched_at < ?
+        ORDER BY enriched_at LIMIT ?`, // meme condition que l'index partiel books_to_enrich
   args: [Date.now() - DAY, max],
 });
 

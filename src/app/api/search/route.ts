@@ -1,25 +1,41 @@
+import { after } from "next/server";
 import { searchCatalog, upsertBooks } from "@/lib/catalog";
 import { searchBooks, titleMatch, words, workKey } from "@/lib/search";
 
+/**
+ * Le catalogue repond toujours en premier ; les API externes ne bloquent la reponse
+ * que si le catalogue n'a RIEN, et alors avec un delai court. Tout ce qu'elles
+ * trouvent est enregistre APRES la reponse (after), pour la recherche suivante.
+ */
 export async function GET(request: Request) {
   const q = new URL(request.url).searchParams.get("q")?.trim().slice(0, 200) ?? "";
   if (q.length < 2) return Response.json({ books: [], from: "none" });
 
-  // 1. Catalogue local : rapide et independant des API externes.
   const local = await searchCatalog(q).catch((e) => {
     console.warn("[search] catalogue:", e.message);
     return [];
   });
-  const qWords = new Set(words(q));
-  if (local.some((b) => titleMatch(b, qWords) === 1)) {
+
+  // Rafraichit le catalogue en arriere-plan (delais longs : rien n'attend).
+  const refresh = () =>
+    after(async () => {
+      const { books } = await searchBooks(q, { timeoutMs: 15000 });
+      await upsertBooks(books).catch((e) => console.warn("[search] upsert:", e.message));
+    });
+
+  if (local.length) {
+    const qWords = new Set(words(q));
+    // Pas de titre exact : on complete le catalogue pour la prochaine fois.
+    if (!local.some((b) => titleMatch(b, qWords) === 1)) refresh();
     return Response.json({ books: local, from: "catalog" }, { headers: cache });
   }
 
-  // 2. Sinon, sources en direct ; ce qu'on trouve entre dans le catalogue.
-  const live = await searchBooks(q);
-  await upsertBooks(live.books).catch((e) => console.warn("[search] upsert:", e.message));
-  const seen = new Set(live.books.map(workKey));
-  const books = [...live.books, ...local.filter((b) => !seen.has(workKey(b)))].map((b) => ({ ...b, id: workKey(b) }));
+  // Catalogue vide pour cette recherche : sources en direct, 3 s au plus.
+  const live = await searchBooks(q, { timeoutMs: 3000 });
+  after(() => upsertBooks(live.books).catch((e) => console.warn("[search] upsert:", e.message)));
+  // La BnF depasse souvent 3 s : un second passage complet enrichit le catalogue.
+  if (live.sources.bnf === null) refresh();
+  const books = live.books.map((b) => ({ ...b, id: workKey(b) }));
   return Response.json({ books, from: "live", sources: live.sources }, { headers: cache });
 }
 
