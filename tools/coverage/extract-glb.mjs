@@ -18,6 +18,8 @@ for (const line of wt.split("\n")) {
   // ** ''Titre'' de [[Auteur]]
   else if ((m = line.match(/^\*\*.*?''([^']+(?:'[^']+)*)''\s+d(?:e|')\s*(.+)$/))) books.push({ season, date, author: link(m[2]).replace(/\s*\(.*$/, "").replace(/[,;.].*$/, ""), title: link(m[1]) });
 }
+// "Stendhal adapté en comédie musicale", "Alice Ferney par X" -> l'auteur seul
+for (const b of books) b.author = b.author.split(/\s+(?:et|adaptée?|représentée?|portée?|par|sous|pour)\s/)[0].trim();
 // dedoublonne
 const seen = new Set();
 const out = books.filter((b) => { const k = (b.title + "|" + b.author).toLowerCase(); if (seen.has(k) || !b.author || b.author.length > 60) return false; seen.add(k); return true; });

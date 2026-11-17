@@ -14,19 +14,19 @@
  {
   "season": 8,
   "date": "14 janvier 2016",
-  "author": "Fédor Dostoïevski et le goût de l'artiste pour la lecture",
+  "author": "Fédor Dostoïevski",
   "title": "L'Idiot"
  },
  {
   "season": 8,
   "date": "11 février 2016",
-  "author": "Stendhal adapté en comédie musicale",
+  "author": "Stendhal",
   "title": "Le Rouge et le Noir"
  },
  {
   "season": 8,
   "date": "24 mars 2016 -",
-  "author": "Philippe Djian adapté au cinéma",
+  "author": "Philippe Djian",
   "title": "« Oh... »"
  },
  {
@@ -38,8 +38,14 @@
  {
   "season": 8,
   "date": "21 avril 2016",
-  "author": "Florian Zeller représentée à Broadway",
+  "author": "Florian Zeller",
   "title": "Le Père"
+ },
+ {
+  "season": 8,
+  "date": "5 mai 2016 -",
+  "author": "Fabrice Humbert",
+  "title": "L'Origine de la violence"
  },
  {
   "season": 8,
@@ -76,12 +82,6 @@
   "date": "26 mai 2016",
   "author": "Donna Tartt",
   "title": "Le Maître des illusions"
- },
- {
-  "season": 8,
-  "date": "26 mai 2016",
-  "author": "Stendhal",
-  "title": "Le Rouge et le Noir"
  },
  {
   "season": 8,
@@ -164,7 +164,19 @@
  {
   "season": 9,
   "date": "1er septembre 2016 – L'étranger",
-  "author": "Alice Ferney par Trần Anh Hùng sous le titre Éternité",
+  "author": "Maylis de Kerangal",
+  "title": "Réparer les vivants"
+ },
+ {
+  "season": 9,
+  "date": "1er septembre 2016 – L'étranger",
+  "author": "Jean-Paul Dubois",
+  "title": "Si ce livre pouvait me rapprocher de toi"
+ },
+ {
+  "season": 9,
+  "date": "1er septembre 2016 – L'étranger",
+  "author": "Alice Ferney",
   "title": "L'Élégance des veuves"
  },
  {
@@ -260,7 +272,7 @@
  {
   "season": 9,
   "date": "27 avril 2017 – Les bouleversements historiques contemporains",
-  "author": "Pascal Blanchard et Farid Abdelouahab",
+  "author": "Pascal Blanchard",
   "title": "Les Années 30. Et si l'histoire recommençait ?"
  },
  {
@@ -1100,7 +1112,7 @@
  {
   "season": 10,
   "date": "21 décembre 2017 – Quels livres offrir aux enfants à Noël et comment transmettre la passion de la lecture chez l'enfant",
-  "author": "Jim Harrison et Le Guet de Rick Bass",
+  "author": "Jim Harrison",
   "title": "Légendes d'automne"
  },
  {
@@ -1310,7 +1322,7 @@
  {
   "season": 10,
   "date": "1er février 2018 –",
-  "author": "Pablo Servigne et Raphaël Stevens",
+  "author": "Pablo Servigne",
   "title": "Comment tout peut s'effondrer"
  },
  {
@@ -1394,7 +1406,7 @@
  {
   "season": 10,
   "date": "15 février 2018 – Le beau et la création",
-  "author": "Gérard Garouste et Judith Perrignon",
+  "author": "Gérard Garouste",
   "title": "L'Intranquille"
  },
  {
@@ -1424,7 +1436,7 @@
  {
   "season": 10,
   "date": "22 février 2018 – Voyage au cœur de l'intime",
-  "author": "Robert Maggiori et Charlotte Casiraghi",
+  "author": "Robert Maggiori",
   "title": "Archipel des passions"
  },
  {
@@ -1472,7 +1484,7 @@
  {
   "season": 10,
   "date": "1er mars 2018 – Parler de l'avenir",
-  "author": "Lionel Naccache et son épouse Karine Naccache",
+  "author": "Lionel Naccache",
   "title": "Parlez-vous cerveau ?"
  },
  {
@@ -1550,7 +1562,7 @@
  {
   "season": 10,
   "date": "15 mars 2018 –",
-  "author": "Bernard Pivot et Cécile Pivot",
+  "author": "Bernard Pivot",
   "title": "Lire"
  },
  {
@@ -1688,7 +1700,7 @@
  {
   "season": 10,
   "date": "5 avril 2018 – Les écrivains et leur album de famille",
-  "author": "Erik Orsenna et Nicolas Gilsoul",
+  "author": "Erik Orsenna",
   "title": "Désir de villes"
  },
  {
@@ -1952,7 +1964,7 @@
  {
   "season": 10,
   "date": "10 mai 2018 – La Grande Librairie et les mystères de l'Histoire",
-  "author": "Patrick Boucheron et Mathieu Riboulet",
+  "author": "Patrick Boucheron",
   "title": "Prendre dates"
  },
  {
@@ -2582,7 +2594,7 @@
  {
   "season": 11,
   "date": "14 novembre 2018 – Qu'est-ce qu'être une femme aujourd'hui ?",
-  "author": "Maruzza Loria et Serge Quadruppani",
+  "author": "Maruzza Loria",
   "title": "À la table de Yasmina"
  },
  {
@@ -2834,7 +2846,7 @@
  {
   "season": 11,
   "date": "19 décembre 2018 – Quels livres faire lire aux enfants et aux adolescents ?",
-  "author": "Anne Goscinny et Catel Muller",
+  "author": "Anne Goscinny",
   "title": "Le Monde de Lucrèce"
  },
  {
@@ -4214,7 +4226,7 @@
  {
   "season": 12,
   "date": "11 décembre 2019 – La Révolution française",
-  "author": "Florent Grouazel et Younn Locard",
+  "author": "Florent Grouazel",
   "title": "Révolution"
  },
  {
@@ -4244,7 +4256,7 @@
  {
   "season": 12,
   "date": "18 décembre 2019 – Émission spéciale littérature jeunesse",
-  "author": "Soledad Bravi et Pascale Frey",
+  "author": "Soledad Bravi",
   "title": "Avez-vous lu les classiques de la littérature ?"
  },
  {
@@ -4748,7 +4760,7 @@
  {
   "season": 12,
   "date": "6 mai 2020 – De l'Histoire...et des histoires !",
-  "author": "Patrice Gueniffey et Loris Chavanette",
+  "author": "Patrice Gueniffey",
   "title": "Entre l'éternité, l'océan et la nuit"
  },
  {
@@ -4816,12 +4828,6 @@
   "date": "20 mai 2020 – Et après ?",
   "author": "Léonor de Récondo",
   "title": "Amours"
- },
- {
-  "season": 12,
-  "date": "20 mai 2020 – Et après ?",
-  "author": "Maylis de Kerangal",
-  "title": "Réparer les vivants"
  },
  {
   "season": 12,
@@ -5288,7 +5294,7 @@
  {
   "season": 13,
   "date": "7 octobre 2020 – Autour d'Eddy Mitchell",
-  "author": "Christophe Blain et Abel Lanzac",
+  "author": "Christophe Blain",
   "title": "Quai d'Orsay"
  },
  {
@@ -5330,7 +5336,7 @@
  {
   "season": 13,
   "date": "21 octobre 2020 – Le retour à la terre ?",
-  "author": "Fabien Vehlmann illustré par Chloé Cruchaudet",
+  "author": "Fabien Vehlmann illustré",
   "title": "L'Herbier sauvage"
  },
  {
@@ -5588,7 +5594,7 @@
  {
   "season": 13,
   "date": "6 janvier 2021 – Autour de Bernard Pivot",
-  "author": "François-Régis Gaudry et Alessandra Pierini",
+  "author": "François-Régis Gaudry",
   "title": "On va déguster l'Italie"
  },
  {
@@ -5666,7 +5672,7 @@
  {
   "season": 13,
   "date": "20 janvier 2021 – La masculinité",
-  "author": "Jean-Michel Dupont et Mezzo",
+  "author": "Jean-Michel Dupont",
   "title": "Love in Vain"
  },
  {
@@ -6140,7 +6146,7 @@
  {
   "season": 13,
   "date": "21 avril 2021 – La liberté d'expression, la compassion et la beauté",
-  "author": "James Agee et Walker Evans",
+  "author": "James Agee",
   "title": "Louons maintenant les grands hommes"
  },
  {
@@ -6464,7 +6470,7 @@
  {
   "season": 13,
   "date": "23 juin 2021 – La vie après la mort",
-  "author": "La Fontaine illustrées par Marc Chagall",
+  "author": "La Fontaine illustrées",
   "title": "Fables"
  },
  {
@@ -6890,7 +6896,7 @@
  {
   "season": 14,
   "date": "20 octobre 2021 – Aux côtés de Chimamanda Ngozi Adichie",
-  "author": "André Schwarz-Bart et Chasseur de noirs de Daniel Vaxelaire",
+  "author": "André Schwarz-Bart",
   "title": "La mulâtresse Solitude"
  },
  {
@@ -6902,7 +6908,7 @@
  {
   "season": 14,
   "date": "20 octobre 2021 – Aux côtés de Chimamanda Ngozi Adichie",
-  "author": "Marcus Rediker et Lettres à une noire de Françoise Ega",
+  "author": "Marcus Rediker",
   "title": "À bord du négrier"
  },
  {
@@ -7112,7 +7118,7 @@
  {
   "season": 14,
   "date": "24 novembre 2021 – La vie d'après",
-  "author": "Sébastien Verdier et Pierre Christin",
+  "author": "Sébastien Verdier",
   "title": "Orwell"
  },
  {
@@ -7292,7 +7298,7 @@
  {
   "season": 14,
   "date": "26 janvier 2022 – L'histoire de la langue française",
-  "author": "Erik Orsenna et Bernard Cerquiglini",
+  "author": "Erik Orsenna",
   "title": "Mots immigrés"
  },
  {
@@ -7382,7 +7388,7 @@
  {
   "season": 14,
   "date": "9 février 2022 – Que signifie \"Etre à sa place\" ?",
-  "author": "Amal El-Mohtar et Max Gladstone",
+  "author": "Amal El-Mohtar",
   "title": "Les Oiseaux du temps"
  },
  {
@@ -7790,7 +7796,7 @@
  {
   "season": 14,
   "date": "25 mai 2022 – En direct du Festival de Cannes",
-  "author": "Atiq Rahimi et sa fille Alice",
+  "author": "Atiq Rahimi",
   "title": "Si seulement la nuit"
  },
  {
@@ -8174,7 +8180,7 @@
  {
   "season": 15,
   "date": "2 novembre 2022",
-  "author": "Daniel Pennac et Florence Cestac",
+  "author": "Daniel Pennac",
   "title": "Les mots se mangent"
  },
  {
@@ -8354,7 +8360,7 @@
  {
   "season": 15,
   "date": "23 novembre 2022",
-  "author": "Tsugumi Ōba et Takeshi Obata",
+  "author": "Tsugumi Ōba",
   "title": "Death Note"
  },
  {
@@ -8474,7 +8480,7 @@
  {
   "season": 15,
   "date": "15 décembre 2022",
-  "author": "John Steinbeck et Robert Capa",
+  "author": "John Steinbeck",
   "title": "Journal russe"
  },
  {
@@ -8888,7 +8894,7 @@
  {
   "season": 15,
   "date": "8 mars 2023",
-  "author": "Darina Al Joundi et Mohamed Kacimi",
+  "author": "Darina Al Joundi",
   "title": "Le Jour où Nina Simone a cessé de chanter"
  },
  {
@@ -9146,7 +9152,7 @@
  {
   "season": 15,
   "date": "26 avril 2023",
-  "author": "Éliette Abécassis et Néjib",
+  "author": "Éliette Abécassis",
   "title": "Sépher"
  },
  {
@@ -9242,7 +9248,7 @@
  {
   "season": 15,
   "date": "10 mai 2023",
-  "author": "Alain Ayroles et Juanjo Guarnido",
+  "author": "Alain Ayroles",
   "title": "Les Indes fourbes"
  },
  {
@@ -9500,7 +9506,7 @@
  {
   "season": 16,
   "date": "27 septembre 2023",
-  "author": "Christian Perrissin et Matthieu Blanchin",
+  "author": "Christian Perrissin",
   "title": "Martha Jane Cannary"
  },
  {
@@ -9860,7 +9866,7 @@
  {
   "season": 16,
   "date": "22 novembre 2023",
-  "author": "Grégory Panaccione et Wilfrid Lupano",
+  "author": "Grégory Panaccione",
   "title": "Un Océan d'amour"
  },
  {
@@ -9926,7 +9932,7 @@
  {
   "season": 16,
   "date": "6 décembre 2023",
-  "author": "Escale aux librairies Page et plume à Limoges",
+  "author": "Escale aux librairies Page",
   "title": "Le Passeur de l'Isle"
  },
  {
@@ -10034,7 +10040,7 @@
  {
   "season": 16,
   "date": "10 janvier 2024",
-  "author": "Wilfrid Lupano et Grégory Panaccione",
+  "author": "Wilfrid Lupano",
   "title": "Un océan d'amour"
  },
  {
@@ -10142,7 +10148,7 @@
  {
   "season": 16,
   "date": "24 janvier 2024",
-  "author": "Ramona Badescu et Benoît Guillaume",
+  "author": "Ramona Badescu",
   "title": "Bus 83"
  },
  {
@@ -10496,7 +10502,7 @@
  {
   "season": 16,
   "date": "24 avril 2024",
-  "author": "Véro Cazot et Anaïs Bernabé",
+  "author": "Véro Cazot",
   "title": "Le champ des possibles"
  },
  {
@@ -10622,7 +10628,7 @@
  {
   "season": 17,
   "date": "4 septembre 2024",
-  "author": "Marcella et Elsa hieramente",
+  "author": "Marcella",
   "title": "Les gens qui s'aiment"
  },
  {
@@ -10982,7 +10988,7 @@
  {
   "season": 17,
   "date": "30 octobre 2024",
-  "author": "Jan Clausen et Collectif",
+  "author": "Jan Clausen",
   "title": "Je transporte des explosifs on les appelle des mots"
  },
  {
@@ -11102,7 +11108,7 @@
  {
   "season": 17,
   "date": "13 novembre 2024",
-  "author": "Maria Mies et Veronika Bennholdt-Thomsen",
+  "author": "Maria Mies",
   "title": "La Subsistance. Une perspective écoféministe"
  },
  {
@@ -11138,7 +11144,7 @@
  {
   "season": 17,
   "date": "27 novembre 2024",
-  "author": "Marie-Aude Murail et Constance Robert-Murail",
+  "author": "Marie-Aude Murail",
   "title": "Francœur, À nous la vie d'artiste !"
  },
  {
@@ -11162,13 +11168,13 @@
  {
   "season": 17,
   "date": "27 novembre 2024",
-  "author": "Vanessa Simon-Catelin et François Soutif",
+  "author": "Vanessa Simon-Catelin",
   "title": "L'Expédition rocambolesque du professeur Schmetterling"
  },
  {
   "season": 17,
   "date": "27 novembre 2024",
-  "author": "Hélène Delforge et Quentin Gréban",
+  "author": "Hélène Delforge",
   "title": "Amoureux"
  },
  {
@@ -11840,7 +11846,7 @@
  {
   "season": 17,
   "date": "23 avril 2025",
-  "author": "Fabien Nury et Matthieu Bonhomme",
+  "author": "Fabien Nury",
   "title": "Charlotte impératrice"
  },
  {
@@ -12374,13 +12380,13 @@
  {
   "season": 18,
   "date": "15 octobre 2025",
-  "author": "Loïc Clément et Anne Montel",
+  "author": "Loïc Clément",
   "title": "Les jours sucrés"
  },
  {
   "season": 18,
   "date": "22 octobre 2025",
-  "author": "Fabcaro et Didier Conrad",
+  "author": "Fabcaro",
   "title": "Astérix en Lusitanie"
  },
  {
@@ -12488,7 +12494,7 @@
  {
   "season": 18,
   "date": "5 novembre 2025",
-  "author": "Pénélope Bagieu et Lola Lafon",
+  "author": "Pénélope Bagieu",
   "title": "La nuit retrouvée"
  },
  {
@@ -12530,7 +12536,7 @@
  {
   "season": 18,
   "date": "5 novembre 2025",
-  "author": "Dominique Bertail et Jean-David Morvan",
+  "author": "Dominique Bertail",
   "title": "Madeleine, résistante"
  },
  {
@@ -12698,7 +12704,7 @@
  {
   "season": 18,
   "date": "17 décembre 2025",
-  "author": "Boni et Elene Usdin",
+  "author": "Boni",
   "title": "Détroit Roma"
  },
  {
@@ -12932,7 +12938,7 @@
  {
   "season": 18,
   "date": "11 février 2026",
-  "author": "Gisèle Pelicot et Judith Perrignon",
+  "author": "Gisèle Pelicot",
   "title": "Et la joie de vivre"
  },
  {
@@ -13106,13 +13112,13 @@
  {
   "season": 18,
   "date": "{{date|25 mars 2026}}",
-  "author": "Michel Houellebecq et Frédéric Lo",
+  "author": "Michel Houellebecq",
   "title": "Souvenez-vous de l'homme"
  },
  {
   "season": 18,
   "date": "{{date|25 mars 2026}}",
-  "author": "Claire-Marie Le Guay et Erik Orsenna",
+  "author": "Claire-Marie Le Guay",
   "title": "Que la joie demeure"
  },
  {
@@ -13298,7 +13304,7 @@
  {
   "season": 18,
   "date": "{{date|27 mai 2026}}",
-  "author": "Marion Montaigne et Thomas Pesquet",
+  "author": "Marion Montaigne",
   "title": "Space Montaigne"
  },
  {

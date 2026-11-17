@@ -7,7 +7,7 @@ import type { Book, Source } from "./types";
 const TIMEOUT_MS: Record<Source, number> = { google: 5000, openlibrary: 5000, bnf: 8000 };
 
 /** œ/æ ne se decomposent pas en NFD : "sœurs" doit egaler "soeurs". */
-const unlig = (s: string) => s.replace(/œ/g, "oe").replace(/Œ/g, "Oe").replace(/æ/g, "ae").replace(/Æ/g, "Ae");
+export const unlig = (s: string) => s.replace(/œ/g, "oe").replace(/Œ/g, "Oe").replace(/æ/g, "ae").replace(/Æ/g, "Ae");
 
 const norm = (s = "") =>
   unlig(s)
@@ -17,17 +17,17 @@ const norm = (s = "") =>
     .replace(/^(l'|le |la |les |un |une |the )/, "")
     .replace(/[^a-z0-9]/g, "");
 
-/** Nom de famille = dernier mot du nom d'auteur. */
-const surname = (a?: string) => norm(a?.trim().split(/\s+/).pop());
+/** Nom de famille : "Dostoïevski, Fiodor" -> avant la virgule ; "Fiodor Dostoïevski" -> dernier mot. */
+const surname = (a?: string) => norm(a?.includes(",") ? a.split(",")[0] : a?.trim().split(/\s+/).pop());
 
 /** "Le Chien jaune - Edition Collector (French Edition)" -> "Le Chien jaune" */
 const mainTitle = (t: string) => t.split(/\s[-:(\[]\s?|\s\/\s/)[0];
 
 /** Cle d'oeuvre : on regroupe les editions d'un meme titre/auteur. */
-const workKey = (b: Book) => `${norm(mainTitle(b.title))}|${surname(b.authors[0])}`;
+export const workKey = (b: Book) => `${norm(mainTitle(b.title))}|${surname(b.authors[0])}`;
 
 const STOP = new Set(["le", "la", "les", "l", "un", "une", "des", "de", "du", "d", "et", "the", "a", "of"]);
-const words = (s: string) =>
+export const words = (s: string) =>
   unlig(s)
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
@@ -36,13 +36,13 @@ const words = (s: string) =>
     .filter((w) => w && !STOP.has(w));
 
 /** Part des mots du titre presents dans la requete : "Le Petit Prince" bat "Le Petit Prince : puzzles". */
-function titleMatch(b: Book, qWords: Set<string>): number {
+export function titleMatch(b: Book, qWords: Set<string>): number {
   const t = words(b.title);
   if (!t.length) return 0;
   return t.filter((w) => qWords.has(w)).length / t.length;
 }
 
-function merge(a: Book, b: Book): Book {
+export function merge(a: Book, b: Book): Book {
   return {
     ...a,
     authors: a.authors.length ? a.authors : b.authors,

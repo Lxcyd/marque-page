@@ -1,0 +1,29 @@
+name: catalogue
+
+# Chaque nuit : nouveaux livres de La Grande Librairie + enrichissement des fiches incompletes.
+on:
+  schedule:
+    - cron: "17 3 * * *" # 03:17 UTC
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
+      TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+      TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Liste a jour des livres cites a l'emission (page Wikipedia)
+      - run: node tools/coverage/extract-glb.mjs > tools/coverage/glb-books.json
+      # ~1000 requetes Google/jour : 400 pour les nouveaux livres, le reste pour l'enrichissement
+      - run: npx tsx tools/db/seed-glb.mts 400
+      - run: npx tsx tools/db/enrich.mts 300
+      - run: npx tsx tools/db/peek.mts
