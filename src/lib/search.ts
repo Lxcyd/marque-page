@@ -12,6 +12,7 @@ export const unlig = (s: string) => s.replace(/œ/g, "oe").replace(/Œ/g, "Oe").
 
 const norm = (s = "") =>
   unlig(s)
+    .replace(/[’ʼ`´]/g, "'") // "L’étranger" = "L'étranger"
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase()
@@ -30,6 +31,9 @@ const surname = (a?: string) => {
 
 /** "Le Chien jaune - Edition Collector (French Edition)" -> "Le Chien jaune" */
 const mainTitle = (t: string) => t.split(/\s[-:(\[]\s?|\s\/\s/)[0];
+
+/** Debut de cle d'oeuvre pour un titre saisi : "Le Petit Prince" -> "petitprince". */
+export const titleKey = (s: string) => norm(mainTitle(s));
 
 /** Cle d'oeuvre : on regroupe les editions d'un meme titre/auteur. */
 export const workKey = (b: Book) => `${norm(mainTitle(b.title))}|${surname(b.authors[0])}`;

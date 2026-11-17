@@ -1,6 +1,6 @@
 import type { Row } from "@libsql/client";
 import { db } from "./db";
-import { merge, relevance, unlig, words, workKey } from "./search";
+import { merge, relevance, titleKey, unlig, words, workKey } from "./search";
 import type { Book } from "./types";
 
 const fromRow = (r: Row): Book => ({
@@ -32,18 +32,31 @@ export async function searchCatalog(q: string, limit = 30): Promise<Book[]> {
   const match = terms
     .map((t, i) => (i === terms.length - 1 && t.length >= 3 ? `"${t}"*` : `"${t}"`))
     .join(" ");
-  // 2x plus de candidats que de resultats : l'oeuvre la plus connue n'est pas
-  // forcement en tete du bm25 (qui favorise les titres courts).
-  const { rows } = await c.execute({
-    sql: `SELECT b.* FROM books_fts f JOIN books b ON b.seq = f.rowid
-          WHERE books_fts MATCH ? ORDER BY bm25(books_fts) LIMIT ?`,
-    args: [match, limit * 2],
-  });
-  // reclasse comme la recherche en direct : titre exact, notoriete, francais, fiche complete
+  // Cout borne (~650 lignes lues au pire), mesure sur 950 000 oeuvres :
+  // - PAS de ORDER BY bm25 : il lit TOUTES les correspondances ("roman" : 126 018 lignes).
+  //   Sans tri, FTS5 s'arrete a 300 (599 lignes), dans l'ordre d'insertion, et l'import
+  //   a insere les fiches les plus completes d'abord.
+  // - titre exact par l'index de la cle (id = "titre|auteur"), les plus editees d'abord
+  //   (13 a 130 lignes) : l'oeuvre connue est la meme si le mot est tres frequent.
+  const key = titleKey(q);
+  const [fts, exact] = await Promise.all([
+    c.execute({
+      sql: `SELECT b.* FROM books_fts f JOIN books b ON b.seq = f.rowid WHERE books_fts MATCH ? LIMIT 300`,
+      args: [match],
+    }),
+    key.length >= 2
+      ? c.execute({
+          sql: "SELECT * FROM books WHERE id >= ? AND id < ? ORDER BY editions DESC LIMIT 20",
+          args: [`${key}|`, `${key}|~`],
+        })
+      : { rows: [] as Row[] },
+  ]);
+  const byId = new Map<string, Book>();
+  for (const r of [...exact.rows, ...fts.rows]) byId.set(r.id as string, fromRow(r));
+  // classement : titre exact, notoriete, francais, fiche complete
   const qWords = new Set(terms);
-  return rows
-    .map(fromRow)
-    .map((b, i) => ({ b, s: relevance(b, qWords, i) }))
+  return [...byId.values()]
+    .map((b) => ({ b, s: relevance(b, qWords) }))
     .sort((x, y) => y.s - x.s)
     .slice(0, limit)
     .map((x) => x.b);
