@@ -20,7 +20,8 @@ type Volume = {
 /** Google Books : meilleure couverture des titres recents. Necessite une cle (quota anonyme = 0). */
 export async function searchGoogle(q: string, signal: AbortSignal): Promise<Book[]> {
   const key = process.env.GOOGLE_BOOKS_API_KEY;
-  if (!key) return [];
+  // Sans cle = source en echec (et non "aucun resultat") : la route passe alors au repli Open Library.
+  if (!key) throw new Error("GOOGLE_BOOKS_API_KEY manquante");
   const url = new URL("https://www.googleapis.com/books/v1/volumes");
   const isbn = toIsbn13(q);
   url.search = new URLSearchParams({

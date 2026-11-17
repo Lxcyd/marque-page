@@ -32,8 +32,13 @@ export async function GET(request: Request) {
   });
 
   const books = fuse([local, live.books], q).map((b) => ({ ...b, id: workKey(b) }));
-  return Response.json({ books, from: local.length ? "mixed" : "live", sources: live.sources }, { headers: cache });
+  // Un resultat en direct est provisoire (le catalogue se remplit derriere) : cache court,
+  // et jamais de cache pour une reponse vide (sinon "Aucun livre trouve" reste servi 1 jour).
+  return Response.json(
+    { books, from: local.length ? "mixed" : "live", sources: live.sources },
+    { headers: books.length ? { "Cache-Control": "public, s-maxage=300" } : { "Cache-Control": "no-store" } },
+  );
 }
 
-// Cache CDN 1 jour, servi perime 1 semaine.
+// Resultat du catalogue : cache CDN 1 jour, servi perime 1 semaine.
 const cache = { "Cache-Control": "public, s-maxage=86400, stale-while-revalidate=604800" };
