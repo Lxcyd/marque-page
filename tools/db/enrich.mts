@@ -59,8 +59,14 @@ for (const r of rows) {
     for (const source of [fromGoogle, fromOpenLibrary]) {
       if (cover && description) break;
       const got = await source(isbn);
-      if (!cover && got.cover) (cover = got.cover), covers++;
-      if (!description && got.description) (description = got.description), synopses++;
+      if (!cover && got.cover) {
+        cover = got.cover;
+        covers++;
+      }
+      if (!description && got.description) {
+        description = got.description;
+        synopses++;
+      }
     }
   } catch (e) {
     if ((e as Error).message === "429") {
