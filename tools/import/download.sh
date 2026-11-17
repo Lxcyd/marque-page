@@ -3,6 +3,9 @@
 # (archive.org coupe les connexions longues : un flux unique de 12,6 Go est mort a 55 %).
 # Usage : tools/import/download.sh <url> <fichier de sortie> [morceaux=8]
 set -u
+# Arreter le script arrete aussi ses boucles et leurs curl : sinon ils continuent d'ecrire
+# dans les morceaux (17/11/2026 : un 2e essai a melange ses octets avec ceux du 1er).
+trap 'trap - TERM; kill 0' INT TERM
 URL=$1; OUT=$2; N=${3:-8}
 UA="marque-page/0.1 (github.com/Lxcyd/marque-page)"
 SIZE=$(curl -sIL -A "$UA" "$URL" | grep -i '^content-length' | tail -1 | tr -dc 0-9)
