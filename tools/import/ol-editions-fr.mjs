@@ -1,7 +1,9 @@
 // Lit en flux l'export des editions d'Open Library (~12,6 Go .gz, rien n'est stocke)
 // et garde les editions en francais dans data/ol-editions-fr.jsonl.
-// Usage : node tools/import/ol-editions-fr.mjs
-import { createWriteStream, mkdirSync } from "node:fs";
+// Usage : node tools/import/ol-editions-fr.mjs [fichier .gz local]
+// Sans argument : flux direct depuis archive.org. Celui-ci coupe les connexions longues
+// (flux mort a 55 % le 17/11/2026) : preferer download.sh puis le fichier local.
+import { createReadStream, createWriteStream, mkdirSync, statSync } from "node:fs";
 import { createInterface } from "node:readline";
 import { Readable } from "node:stream";
 import { createGunzip } from "node:zlib";
@@ -10,11 +12,18 @@ const URL_DUMP = "https://openlibrary.org/data/ol_dump_editions_latest.txt.gz";
 mkdirSync(new URL("../../data/", import.meta.url), { recursive: true });
 const out = createWriteStream(new URL("../../data/ol-editions-fr.jsonl", import.meta.url));
 
-const res = await fetch(URL_DUMP, { headers: { "User-Agent": "marque-page/0.1 (github.com/Lxcyd/marque-page)" } });
-if (!res.ok) throw new Error(`HTTP ${res.status}`);
-const total = Number(res.headers.get("content-length") ?? 0);
+const local = process.argv[2];
+let body, total;
+if (local) {
+  body = createReadStream(local);
+  total = statSync(local).size;
+} else {
+  const res = await fetch(URL_DUMP, { headers: { "User-Agent": "marque-page/0.1 (github.com/Lxcyd/marque-page)" } });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  total = Number(res.headers.get("content-length") ?? 0);
+  body = Readable.fromWeb(res.body);
+}
 let downloaded = 0;
-const body = Readable.fromWeb(res.body);
 body.on("data", (c) => (downloaded += c.length));
 
 const stats = { lines: 0, fr: 0, isbn: 0, cover: 0, authors: 0, work: 0, pages: 0, publisher: 0, date: 0, description: 0 };
