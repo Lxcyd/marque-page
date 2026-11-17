@@ -32,7 +32,7 @@ function matches(b: Book, ref: Ref) {
   return titleOk && authorOk;
 }
 
-const UA = { "User-Agent": "book-list/0.1 (github.com/Lxcyd/book-list)" };
+const UA = { "User-Agent": "marque-page/0.1 (github.com/Lxcyd/marque-page)" };
 async function coverOk(url?: string) {
   if (!url) return false;
   try {

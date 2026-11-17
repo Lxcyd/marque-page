@@ -6,7 +6,7 @@ const sans = Geist({ variable: "--font-geist", subsets: ["latin"] });
 const serif = Newsreader({ variable: "--font-newsreader", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Book List",
+  title: "Marque-page",
   description: "Suivez vos lectures : à lire, en cours, lus.",
 };
 

@@ -1,6 +1,6 @@
 // Extrait les livres cites a La Grande Librairie depuis la page Wikipedia FR.
 // Usage : node extract-glb.mjs > glb-books.json
-const UA = { "User-Agent": "book-list/0.1 (github.com/Lxcyd/book-list)" };
+const UA = { "User-Agent": "marque-page/0.1 (github.com/Lxcyd/marque-page)" };
 const url = "https://fr.wikipedia.org/w/api.php?action=parse&page=La_Grande_Librairie&prop=wikitext&format=json&formatversion=2";
 const wt = (await (await fetch(url, { headers: UA })).json()).parse.wikitext;
 

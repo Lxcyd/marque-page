@@ -5,7 +5,7 @@
 import { db } from "../../src/lib/db";
 
 const max = Number(process.argv[2] ?? 200);
-const UA = { "User-Agent": "book-list/0.1 (github.com/Lxcyd/book-list)" };
+const UA = { "User-Agent": "marque-page/0.1 (github.com/Lxcyd/marque-page)" };
 const c = db()!;
 const DAY = 86_400_000;
 

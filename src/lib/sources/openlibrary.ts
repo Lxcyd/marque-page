@@ -23,7 +23,7 @@ export async function searchOpenLibrary(q: string, signal: AbortSignal): Promise
     fields:
       "key,title,author_name,first_publish_year,isbn,cover_i,publisher,number_of_pages_median,language",
   }).toString();
-  const res = await fetch(url, { signal, headers: { "User-Agent": "book-list (open source)" } });
+  const res = await fetch(url, { signal, headers: { "User-Agent": "marque-page/0.1 (github.com/Lxcyd/marque-page)" } });
   if (!res.ok) throw new Error(`openlibrary ${res.status}`);
   const data = (await res.json()) as { docs: Doc[] };
   return data.docs.map((d) => {
